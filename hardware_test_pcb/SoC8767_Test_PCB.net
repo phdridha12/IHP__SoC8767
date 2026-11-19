@@ -1,0 +1,7674 @@
+(export
+	(version "E")
+	(design
+		(source "D:\\ic_project\\mini_project\\IHP__SoC8767\\hardware_test_pcb\\SoC8767_Test_PCB.kicad_sch")
+		(date "2026-11-19T12:56:19")
+		(tool "Eeschema 10.0.8")
+		(textvar
+			(name "COMPANY") "AIRMODA / CDTA")
+		(textvar
+			(name "PROJECT_DESCRIPTION") "SoC8767 Gas Sensor Mixed-Signal SoC Characterization & Test PCB")
+		(textvar
+			(name "REVISION") "v1.0.0")
+		(sheet
+			(number "1")
+			(name "/")
+			(tstamps "/")
+			(title_block
+				(title "AIRMODA SoC8767 Mixed-Signal Test & Characterization PCB")
+				(company "AIRMODA / CDTA")
+				(rev "v1.0.0")
+				(date "2026-11-19")
+				(source "SoC8767_Test_PCB.kicad_sch")
+				(comment
+					(number "1")
+					(value "Mixed-Signal Test & Characterization PCB")
+				)
+				(comment
+					(number "2")
+					(value "Target IC: SoC8767 (IHP SG13G2 130nm BiCMOS, QFN-24)")
+				)
+				(comment
+					(number "3")
+					(value "Zero 3.3V Direct Exposure, Full Block-by-Block Isolation")
+				)
+				(comment
+					(number "4")
+					(value "")
+				)
+				(comment
+					(number "5")
+					(value "")
+				)
+				(comment
+					(number "6")
+					(value "")
+				)
+				(comment
+					(number "7")
+					(value "")
+				)
+				(comment
+					(number "8")
+					(value "")
+				)
+				(comment
+					(number "9")
+					(value "")
+				)
+			)
+		)
+	)
+	(components
+		(comp
+			(ref "C_3V3_1")
+			(value "100nF")
+			(footprint "Capacitor_SMD:C_0402_1005Metric")
+			(description "VDD_3V3 Local Decoupling")
+			(fields
+				(field
+					(name "Footprint") "Capacitor_SMD:C_0402_1005Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "VDD_3V3 Local Decoupling")
+			)
+			(libsource
+				(lib "Device")
+				(part "C")
+				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "Sheetname")
+				(value "SoC8767_Test_PCB")
+			)
+			(property
+				(name "Sheetfile")
+				(value "SoC8767_Test_PCB.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "2d906c24-df25-4bf4-a190-42ad2d2f1829")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C_3V3_2")
+			(value "1uF")
+			(footprint "Capacitor_SMD:C_0603_1608Metric")
+			(description "VDD_3V3 Mid Decoupling")
+			(fields
+				(field
+					(name "Footprint") "Capacitor_SMD:C_0603_1608Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "VDD_3V3 Mid Decoupling")
+			)
+			(libsource
+				(lib "Device")
+				(part "C")
+				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "Sheetname")
+				(value "SoC8767_Test_PCB")
+			)
+			(property
+				(name "Sheetfile")
+				(value "SoC8767_Test_PCB.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "44b7208b-0367-4594-a392-4e06074c2b82")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C_3V3_BULK")
+			(value "10uF")
+			(footprint "Capacitor_SMD:C_0805_2012Metric")
+			(description "VDD_3V3 Bulk Decoupling")
+			(fields
+				(field
+					(name "Footprint") "Capacitor_SMD:C_0805_2012Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "VDD_3V3 Bulk Decoupling")
+			)
+			(libsource
+				(lib "Device")
+				(part "C")
+				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "Sheetname")
+				(value "SoC8767_Test_PCB")
+			)
+			(property
+				(name "Sheetfile")
+				(value "SoC8767_Test_PCB.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "aa593e82-4e01-4f8d-ac69-226dd745af40")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C_AAF")
+			(value "1nF")
+			(footprint "Capacitor_SMD:C_0603_1608Metric")
+			(description "Anti-Aliasing Filter Capacitor")
+			(fields
+				(field
+					(name "Footprint") "Capacitor_SMD:C_0603_1608Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Anti-Aliasing Filter Capacitor")
+			)
+			(libsource
+				(lib "Device")
+				(part "C")
+				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "Sheetname")
+				(value "SoC8767_Test_PCB")
+			)
+			(property
+				(name "Sheetfile")
+				(value "SoC8767_Test_PCB.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "8124a8d7-a6b6-4cb0-87a9-6b252234e9b5")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C_ANA1")
+			(value "100nF")
+			(footprint "Capacitor_SMD:C_0402_1005Metric")
+			(description "VDD_ANA Local Decoupling")
+			(fields
+				(field
+					(name "Footprint") "Capacitor_SMD:C_0402_1005Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "VDD_ANA Local Decoupling")
+			)
+			(libsource
+				(lib "Device")
+				(part "C")
+				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "Sheetname")
+				(value "SoC8767_Test_PCB")
+			)
+			(property
+				(name "Sheetfile")
+				(value "SoC8767_Test_PCB.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "554a3bc8-e150-4982-acaa-b1370bb89fe1")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C_ANA2")
+			(value "1uF")
+			(footprint "Capacitor_SMD:C_0603_1608Metric")
+			(description "VDD_ANA Bulk Decoupling")
+			(fields
+				(field
+					(name "Footprint") "Capacitor_SMD:C_0603_1608Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "VDD_ANA Bulk Decoupling")
+			)
+			(libsource
+				(lib "Device")
+				(part "C")
+				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "Sheetname")
+				(value "SoC8767_Test_PCB")
+			)
+			(property
+				(name "Sheetfile")
+				(value "SoC8767_Test_PCB.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "ff730944-022e-4f8d-9ba1-de151b3e2537")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C_BGR1")
+			(value "100nF")
+			(footprint "Capacitor_SMD:C_0402_1005Metric")
+			(description "BGR Local Decoupling")
+			(fields
+				(field
+					(name "Footprint") "Capacitor_SMD:C_0402_1005Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "BGR Local Decoupling")
+			)
+			(libsource
+				(lib "Device")
+				(part "C")
+				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "Sheetname")
+				(value "SoC8767_Test_PCB")
+			)
+			(property
+				(name "Sheetfile")
+				(value "SoC8767_Test_PCB.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "40f79559-cb58-4b4f-851f-1387ffde2e68")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C_BGR2")
+			(value "1uF")
+			(footprint "Capacitor_SMD:C_0603_1608Metric")
+			(description "BGR Bulk Decoupling")
+			(fields
+				(field
+					(name "Footprint") "Capacitor_SMD:C_0603_1608Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "BGR Bulk Decoupling")
+			)
+			(libsource
+				(lib "Device")
+				(part "C")
+				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "Sheetname")
+				(value "SoC8767_Test_PCB")
+			)
+			(property
+				(name "Sheetfile")
+				(value "SoC8767_Test_PCB.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "f5d92568-3c5d-48fd-902b-bb8ddbff04c9")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C_BUF1")
+			(value "100nF")
+			(footprint "Capacitor_SMD:C_0402_1005Metric")
+			(description "Buffer 1 Decoupling")
+			(fields
+				(field
+					(name "Footprint") "Capacitor_SMD:C_0402_1005Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Buffer 1 Decoupling")
+			)
+			(libsource
+				(lib "Device")
+				(part "C")
+				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "Sheetname")
+				(value "SoC8767_Test_PCB")
+			)
+			(property
+				(name "Sheetfile")
+				(value "SoC8767_Test_PCB.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "cd0eeb9e-e49d-437b-b5ad-c92eb24692c5")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C_BUF2")
+			(value "100nF")
+			(footprint "Capacitor_SMD:C_0402_1005Metric")
+			(description "Buffer 2 Decoupling")
+			(fields
+				(field
+					(name "Footprint") "Capacitor_SMD:C_0402_1005Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Buffer 2 Decoupling")
+			)
+			(libsource
+				(lib "Device")
+				(part "C")
+				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "Sheetname")
+				(value "SoC8767_Test_PCB")
+			)
+			(property
+				(name "Sheetfile")
+				(value "SoC8767_Test_PCB.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "8bd7bbdf-b6ef-46fd-9fc8-8e3c79a8bfb4")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C_DIG1")
+			(value "100nF")
+			(footprint "Capacitor_SMD:C_0402_1005Metric")
+			(description "VDD_DIG Local Decoupling")
+			(fields
+				(field
+					(name "Footprint") "Capacitor_SMD:C_0402_1005Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "VDD_DIG Local Decoupling")
+			)
+			(libsource
+				(lib "Device")
+				(part "C")
+				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "Sheetname")
+				(value "SoC8767_Test_PCB")
+			)
+			(property
+				(name "Sheetfile")
+				(value "SoC8767_Test_PCB.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "c936f11f-cf1f-4f6c-b192-cd4b1a1783bb")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C_DIG2")
+			(value "1uF")
+			(footprint "Capacitor_SMD:C_0603_1608Metric")
+			(description "VDD_DIG Bulk Decoupling")
+			(fields
+				(field
+					(name "Footprint") "Capacitor_SMD:C_0603_1608Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "VDD_DIG Bulk Decoupling")
+			)
+			(libsource
+				(lib "Device")
+				(part "C")
+				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "Sheetname")
+				(value "SoC8767_Test_PCB")
+			)
+			(property
+				(name "Sheetfile")
+				(value "SoC8767_Test_PCB.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "ae3fd845-d82b-4f5a-817c-9ac4651b58e8")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C_LDO_IN")
+			(value "1uF")
+			(footprint "Capacitor_SMD:C_0603_1608Metric")
+			(description "LDO Input Capacitor")
+			(fields
+				(field
+					(name "Footprint") "Capacitor_SMD:C_0603_1608Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "LDO Input Capacitor")
+			)
+			(libsource
+				(lib "Device")
+				(part "C")
+				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "Sheetname")
+				(value "SoC8767_Test_PCB")
+			)
+			(property
+				(name "Sheetfile")
+				(value "SoC8767_Test_PCB.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "36321b4c-78c9-40c0-bf81-59420cbf0a70")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C_LDO_OUT")
+			(value "2.2uF")
+			(footprint "Capacitor_SMD:C_0603_1608Metric")
+			(description "LDO Output Capacitor")
+			(fields
+				(field
+					(name "Footprint") "Capacitor_SMD:C_0603_1608Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "LDO Output Capacitor")
+			)
+			(libsource
+				(lib "Device")
+				(part "C")
+				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "Sheetname")
+				(value "SoC8767_Test_PCB")
+			)
+			(property
+				(name "Sheetfile")
+				(value "SoC8767_Test_PCB.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "8855b76e-70d9-401a-a717-ff6594b5945b")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C_LS_A")
+			(value "100nF")
+			(footprint "Capacitor_SMD:C_0402_1005Metric")
+			(description "Level Shifter VCCA Decoupling")
+			(fields
+				(field
+					(name "Footprint") "Capacitor_SMD:C_0402_1005Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Level Shifter VCCA Decoupling")
+			)
+			(libsource
+				(lib "Device")
+				(part "C")
+				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "Sheetname")
+				(value "SoC8767_Test_PCB")
+			)
+			(property
+				(name "Sheetfile")
+				(value "SoC8767_Test_PCB.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "cf18389f-391f-4fa9-9eb7-77ac0ce4778f")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C_LS_B")
+			(value "100nF")
+			(footprint "Capacitor_SMD:C_0402_1005Metric")
+			(description "Level Shifter VCCB Decoupling")
+			(fields
+				(field
+					(name "Footprint") "Capacitor_SMD:C_0402_1005Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Level Shifter VCCB Decoupling")
+			)
+			(libsource
+				(lib "Device")
+				(part "C")
+				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "Sheetname")
+				(value "SoC8767_Test_PCB")
+			)
+			(property
+				(name "Sheetfile")
+				(value "SoC8767_Test_PCB.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "c6c0ba08-6fe5-4740-98ae-6f6d4238d776")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C_MAIN_BULK")
+			(value "10uF")
+			(footprint "Capacitor_SMD:C_0805_2012Metric")
+			(description "Board Bulk 3.3V Capacitor")
+			(fields
+				(field
+					(name "Footprint") "Capacitor_SMD:C_0805_2012Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Board Bulk 3.3V Capacitor")
+			)
+			(libsource
+				(lib "Device")
+				(part "C")
+				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "Sheetname")
+				(value "SoC8767_Test_PCB")
+			)
+			(property
+				(name "Sheetfile")
+				(value "SoC8767_Test_PCB.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "3d3432f1-2d24-4808-ba5f-f15931e011bf")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C_OSC")
+			(value "100nF")
+			(footprint "Capacitor_SMD:C_0402_1005Metric")
+			(description "Oscillator Decoupling")
+			(fields
+				(field
+					(name "Footprint") "Capacitor_SMD:C_0402_1005Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Oscillator Decoupling")
+			)
+			(libsource
+				(lib "Device")
+				(part "C")
+				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "Sheetname")
+				(value "SoC8767_Test_PCB")
+			)
+			(property
+				(name "Sheetfile")
+				(value "SoC8767_Test_PCB.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "844b7dd9-66f5-4de7-93f8-d370809a8443")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C_TEMP")
+			(value "100nF")
+			(footprint "Capacitor_SMD:C_0402_1005Metric")
+			(description "TMP117 Decoupling")
+			(fields
+				(field
+					(name "Footprint") "Capacitor_SMD:C_0402_1005Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "TMP117 Decoupling")
+			)
+			(libsource
+				(lib "Device")
+				(part "C")
+				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "Sheetname")
+				(value "SoC8767_Test_PCB")
+			)
+			(property
+				(name "Sheetfile")
+				(value "SoC8767_Test_PCB.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "25b150b6-7f16-463f-9e59-02a782693872")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "D_ALARM")
+			(value "RED")
+			(footprint "LED_SMD:LED_0603_1608Metric")
+			(description "Alarm Asserted Indicator")
+			(fields
+				(field
+					(name "Footprint") "LED_SMD:LED_0603_1608Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Alarm Asserted Indicator")
+			)
+			(libsource
+				(lib "Device")
+				(part "LED")
+				(description "Light emitting diode")
+			)
+			(property
+				(name "Sheetname")
+				(value "SoC8767_Test_PCB")
+			)
+			(property
+				(name "Sheetfile")
+				(value "SoC8767_Test_PCB.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "LED diode")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "LED* LED_SMD:* LED_THT:*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "8f17c6fa-cf7b-42b2-8b5d-72b033a58677")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "D_PWR_1V2")
+			(value "GREEN")
+			(footprint "LED_SMD:LED_0603_1608Metric")
+			(description "1.2V Power Good Indicator")
+			(fields
+				(field
+					(name "Footprint") "LED_SMD:LED_0603_1608Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "1.2V Power Good Indicator")
+			)
+			(libsource
+				(lib "Device")
+				(part "LED")
+				(description "Light emitting diode")
+			)
+			(property
+				(name "Sheetname")
+				(value "SoC8767_Test_PCB")
+			)
+			(property
+				(name "Sheetfile")
+				(value "SoC8767_Test_PCB.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "LED diode")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "LED* LED_SMD:* LED_THT:*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "90a392f6-398c-49d9-98a4-3c0921f7ef3b")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "D_PWR_3V3")
+			(value "GREEN")
+			(footprint "LED_SMD:LED_0603_1608Metric")
+			(description "3.3V Power Good Indicator")
+			(fields
+				(field
+					(name "Footprint") "LED_SMD:LED_0603_1608Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "3.3V Power Good Indicator")
+			)
+			(libsource
+				(lib "Device")
+				(part "LED")
+				(description "Light emitting diode")
+			)
+			(property
+				(name "Sheetname")
+				(value "SoC8767_Test_PCB")
+			)
+			(property
+				(name "Sheetfile")
+				(value "SoC8767_Test_PCB.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "LED diode")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "LED* LED_SMD:* LED_THT:*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "afc634d3-3c74-48f2-9233-f2bc12e44ad4")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "J_AD0")
+			(value "J_AD0")
+			(footprint "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical")
+			(description "I2C Address Select (1: 1.2V->0x49, 3: GND->0x48)")
+			(fields
+				(field
+					(name "Footprint") "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "I2C Address Select (1: 1.2V->0x49, 3: GND->0x48)")
+			)
+			(libsource
+				(lib "Connector_Generic")
+				(part "Conn_01x03")
+				(description "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)")
+			)
+			(property
+				(name "Sheetname")
+				(value "SoC8767_Test_PCB")
+			)
+			(property
+				(name "Sheetfile")
+				(value "SoC8767_Test_PCB.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "connector")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "Connector*:*_1x??_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "1771d33c-d320-4226-961c-238a3db7be03")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "3")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "J_BGR")
+			(value "J_BGR")
+			(footprint "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical")
+			(description "BGR Isolation & External Overdrive Jumper")
+			(fields
+				(field
+					(name "Footprint") "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "BGR Isolation & External Overdrive Jumper")
+			)
+			(libsource
+				(lib "Connector_Generic")
+				(part "Conn_01x02")
+				(description "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)")
+			)
+			(property
+				(name "Sheetname")
+				(value "SoC8767_Test_PCB")
+			)
+			(property
+				(name "Sheetfile")
+				(value "SoC8767_Test_PCB.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "connector")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "Connector*:*_1x??_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "1de7aa14-354c-4c53-9123-eebbe3f55dbb")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "J_CLK_D")
+			(value "J_CLK_D")
+			(footprint "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical")
+			(description "CLK_D Isolation Jumper")
+			(fields
+				(field
+					(name "Footprint") "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "CLK_D Isolation Jumper")
+			)
+			(libsource
+				(lib "Connector_Generic")
+				(part "Conn_01x02")
+				(description "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)")
+			)
+			(property
+				(name "Sheetname")
+				(value "SoC8767_Test_PCB")
+			)
+			(property
+				(name "Sheetfile")
+				(value "SoC8767_Test_PCB.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "connector")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "Connector*:*_1x??_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "2caf1ff8-d1d5-441d-99ae-28a4af7dd641")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "J_CLK_SRC")
+			(value "J_CLK_SRC")
+			(footprint "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical")
+			(description "Clock Source Selector (1: SMA, 3: OSC, 4: MCU)")
+			(fields
+				(field
+					(name "Footprint") "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Clock Source Selector (1: SMA, 3: OSC, 4: MCU)")
+			)
+			(libsource
+				(lib "Connector_Generic")
+				(part "Conn_01x04")
+				(description "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)")
+			)
+			(property
+				(name "Sheetname")
+				(value "SoC8767_Test_PCB")
+			)
+			(property
+				(name "Sheetfile")
+				(value "SoC8767_Test_PCB.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "connector")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "Connector*:*_1x??_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "a44f592e-21d4-4a97-9749-e945464dd040")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "4")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "J_EN")
+			(value "J_EN")
+			(footprint "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical")
+			(description "ENABLE Isolation Jumper")
+			(fields
+				(field
+					(name "Footprint") "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "ENABLE Isolation Jumper")
+			)
+			(libsource
+				(lib "Connector_Generic")
+				(part "Conn_01x02")
+				(description "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)")
+			)
+			(property
+				(name "Sheetname")
+				(value "SoC8767_Test_PCB")
+			)
+			(property
+				(name "Sheetfile")
+				(value "SoC8767_Test_PCB.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "connector")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "Connector*:*_1x??_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "ab791303-019a-4766-aba8-da63d2911aa7")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "J_HOST")
+			(value "J_HOST")
+			(footprint "Connector_PinHeader_2.54mm:PinHeader_2x06_P2.54mm_Vertical")
+			(description "Host MCU / FPGA / SMU Digital & Power Interface")
+			(fields
+				(field
+					(name "Footprint") "Connector_PinHeader_2.54mm:PinHeader_2x06_P2.54mm_Vertical")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Host MCU / FPGA / SMU Digital & Power Interface")
+			)
+			(libsource
+				(lib "Connector_Generic")
+				(part "Conn_02x06_Odd_Even")
+				(description "Generic connector, double row, 02x06, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)")
+			)
+			(property
+				(name "Sheetname")
+				(value "SoC8767_Test_PCB")
+			)
+			(property
+				(name "Sheetfile")
+				(value "SoC8767_Test_PCB.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "connector")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "Connector*:*_2x??_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "32dbb06e-2a9e-4b49-afa9-b3c40b9b7150")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "5")
+						)
+						(pin
+							(num "7")
+						)
+						(pin
+							(num "9")
+						)
+						(pin
+							(num "11")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "4")
+						)
+						(pin
+							(num "6")
+						)
+						(pin
+							(num "8")
+						)
+						(pin
+							(num "10")
+						)
+						(pin
+							(num "12")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "J_ISCL")
+			(value "J_ISCL")
+			(footprint "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical")
+			(description "I_SCL Isolation Jumper")
+			(fields
+				(field
+					(name "Footprint") "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "I_SCL Isolation Jumper")
+			)
+			(libsource
+				(lib "Connector_Generic")
+				(part "Conn_01x02")
+				(description "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)")
+			)
+			(property
+				(name "Sheetname")
+				(value "SoC8767_Test_PCB")
+			)
+			(property
+				(name "Sheetfile")
+				(value "SoC8767_Test_PCB.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "connector")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "Connector*:*_1x??_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "015ee05d-30a6-456d-b254-1121fc8e4bf4")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "J_ISDA")
+			(value "J_ISDA")
+			(footprint "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical")
+			(description "I_SDA Isolation Jumper")
+			(fields
+				(field
+					(name "Footprint") "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "I_SDA Isolation Jumper")
+			)
+			(libsource
+				(lib "Connector_Generic")
+				(part "Conn_01x02")
+				(description "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)")
+			)
+			(property
+				(name "Sheetname")
+				(value "SoC8767_Test_PCB")
+			)
+			(property
+				(name "Sheetfile")
+				(value "SoC8767_Test_PCB.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "connector")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "Connector*:*_1x??_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "eab59d44-19bb-44a9-8a0e-d11f54f94eca")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "J_LDO_ANA")
+			(value "J_LDO_ANA")
+			(footprint "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical")
+			(description "Analog LDO Selector (1-2: Int, 2-3: Ext)")
+			(fields
+				(field
+					(name "Footprint") "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Analog LDO Selector (1-2: Int, 2-3: Ext)")
+			)
+			(libsource
+				(lib "Connector_Generic")
+				(part "Conn_01x03")
+				(description "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)")
+			)
+			(property
+				(name "Sheetname")
+				(value "SoC8767_Test_PCB")
+			)
+			(property
+				(name "Sheetfile")
+				(value "SoC8767_Test_PCB.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "connector")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "Connector*:*_1x??_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "2877fc8b-7507-4d63-8073-7b05be6247f7")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "3")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "J_LDO_DIG")
+			(value "J_LDO_DIG")
+			(footprint "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical")
+			(description "Digital LDO Selector (1-2: Int, 2-3: Ext)")
+			(fields
+				(field
+					(name "Footprint") "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Digital LDO Selector (1-2: Int, 2-3: Ext)")
+			)
+			(libsource
+				(lib "Connector_Generic")
+				(part "Conn_01x03")
+				(description "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)")
+			)
+			(property
+				(name "Sheetname")
+				(value "SoC8767_Test_PCB")
+			)
+			(property
+				(name "Sheetfile")
+				(value "SoC8767_Test_PCB.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "connector")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "Connector*:*_1x??_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "803a3641-57ef-491c-818c-8f30a0a897c5")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "3")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "J_OSCL")
+			(value "J_OSCL")
+			(footprint "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical")
+			(description "O_SCL Isolation Jumper")
+			(fields
+				(field
+					(name "Footprint") "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "O_SCL Isolation Jumper")
+			)
+			(libsource
+				(lib "Connector_Generic")
+				(part "Conn_01x02")
+				(description "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)")
+			)
+			(property
+				(name "Sheetname")
+				(value "SoC8767_Test_PCB")
+			)
+			(property
+				(name "Sheetfile")
+				(value "SoC8767_Test_PCB.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "connector")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "Connector*:*_1x??_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "3dfca74e-446f-43ce-9608-aa48b2abd415")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "J_OSDA")
+			(value "J_OSDA")
+			(footprint "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical")
+			(description "O_SDA Isolation Jumper")
+			(fields
+				(field
+					(name "Footprint") "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "O_SDA Isolation Jumper")
+			)
+			(libsource
+				(lib "Connector_Generic")
+				(part "Conn_01x02")
+				(description "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)")
+			)
+			(property
+				(name "Sheetname")
+				(value "SoC8767_Test_PCB")
+			)
+			(property
+				(name "Sheetfile")
+				(value "SoC8767_Test_PCB.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "connector")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "Connector*:*_1x??_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "042f2a1a-3293-4005-9a44-0761994a9a34")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "J_PWR_IN")
+			(value "J_PWR_IN")
+			(footprint "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical")
+			(description "External Bench +3.3V Power / SMU Input")
+			(fields
+				(field
+					(name "Footprint") "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "External Bench +3.3V Power / SMU Input")
+			)
+			(libsource
+				(lib "Connector_Generic")
+				(part "Conn_01x02")
+				(description "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)")
+			)
+			(property
+				(name "Sheetname")
+				(value "SoC8767_Test_PCB")
+			)
+			(property
+				(name "Sheetfile")
+				(value "SoC8767_Test_PCB.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "connector")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "Connector*:*_1x??_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "0bdcbf51-4fb8-4d91-aed7-0cde13ae9987")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "J_PWR_MAIN")
+			(value "J_PWR_MAIN")
+			(footprint "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical")
+			(description "Main Power Shorting / Profiling Jumper")
+			(fields
+				(field
+					(name "Footprint") "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Main Power Shorting / Profiling Jumper")
+			)
+			(libsource
+				(lib "Connector_Generic")
+				(part "Conn_01x02")
+				(description "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)")
+			)
+			(property
+				(name "Sheetname")
+				(value "SoC8767_Test_PCB")
+			)
+			(property
+				(name "Sheetfile")
+				(value "SoC8767_Test_PCB.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "connector")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "Connector*:*_1x??_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "06b8d7fb-9eb5-4e41-9813-e013f3f244b6")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "J_RST")
+			(value "J_RST")
+			(footprint "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical")
+			(description "RESET Isolation Jumper")
+			(fields
+				(field
+					(name "Footprint") "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "RESET Isolation Jumper")
+			)
+			(libsource
+				(lib "Connector_Generic")
+				(part "Conn_01x02")
+				(description "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)")
+			)
+			(property
+				(name "Sheetname")
+				(value "SoC8767_Test_PCB")
+			)
+			(property
+				(name "Sheetfile")
+				(value "SoC8767_Test_PCB.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "connector")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "Connector*:*_1x??_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "6c200d4f-14c9-4b54-a347-913fc40ee3e6")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "J_SENSOR")
+			(value "J_SENSOR")
+			(footprint "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical")
+			(description "Real Gas Sensor Conditioning Header")
+			(fields
+				(field
+					(name "Footprint") "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Real Gas Sensor Conditioning Header")
+			)
+			(libsource
+				(lib "Connector_Generic")
+				(part "Conn_01x04")
+				(description "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)")
+			)
+			(property
+				(name "Sheetname")
+				(value "SoC8767_Test_PCB")
+			)
+			(property
+				(name "Sheetfile")
+				(value "SoC8767_Test_PCB.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "connector")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "Connector*:*_1x??_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "2b5d49b0-8796-47d5-ae44-8fa5fb3677ba")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "4")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "J_SENS_SRC")
+			(value "J_SENS_SRC")
+			(footprint "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical")
+			(description "Sensor Input Selector (1: Cal, 3: Sensor)")
+			(fields
+				(field
+					(name "Footprint") "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Sensor Input Selector (1: Cal, 3: Sensor)")
+			)
+			(libsource
+				(lib "Connector_Generic")
+				(part "Conn_01x03")
+				(description "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)")
+			)
+			(property
+				(name "Sheetname")
+				(value "SoC8767_Test_PCB")
+			)
+			(property
+				(name "Sheetfile")
+				(value "SoC8767_Test_PCB.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "connector")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "Connector*:*_1x??_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "362f2277-f491-4892-ba82-4b5a1c779646")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "3")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "J_TERM_CLK")
+			(value "J_TERM")
+			(footprint "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical")
+			(description "50 Ohm Termination Enable Jumper")
+			(fields
+				(field
+					(name "Footprint") "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "50 Ohm Termination Enable Jumper")
+			)
+			(libsource
+				(lib "Connector_Generic")
+				(part "Conn_01x02")
+				(description "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)")
+			)
+			(property
+				(name "Sheetname")
+				(value "SoC8767_Test_PCB")
+			)
+			(property
+				(name "Sheetfile")
+				(value "SoC8767_Test_PCB.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "connector")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "Connector*:*_1x??_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "2ba8c5d1-4e93-4a27-8ddc-eb2de15f767b")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "Q1")
+			(value "BSS138")
+			(footprint "Package_TO_SOT_SMD:SOT-23")
+			(description "SDA Bidirectional Level Shifter N-FET")
+			(fields
+				(field
+					(name "Footprint") "Package_TO_SOT_SMD:SOT-23")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "SDA Bidirectional Level Shifter N-FET")
+			)
+			(libsource
+				(lib "SoC8767")
+				(part "BSS138")
+				(description "50V Vds, 0.22A Id, N-Channel MOSFET, SOT-23")
+			)
+			(property
+				(name "Sheetname")
+				(value "SoC8767_Test_PCB")
+			)
+			(property
+				(name "Sheetfile")
+				(value "SoC8767_Test_PCB.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "N-Channel MOSFET")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "SOT?23*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "83e763d5-c3a7-48e0-ac32-a4563027a2d9")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "Q2")
+			(value "BSS138")
+			(footprint "Package_TO_SOT_SMD:SOT-23")
+			(description "SCL Bidirectional Level Shifter N-FET")
+			(fields
+				(field
+					(name "Footprint") "Package_TO_SOT_SMD:SOT-23")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "SCL Bidirectional Level Shifter N-FET")
+			)
+			(libsource
+				(lib "SoC8767")
+				(part "BSS138")
+				(description "50V Vds, 0.22A Id, N-Channel MOSFET, SOT-23")
+			)
+			(property
+				(name "Sheetname")
+				(value "SoC8767_Test_PCB")
+			)
+			(property
+				(name "Sheetfile")
+				(value "SoC8767_Test_PCB.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "N-Channel MOSFET")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "SOT?23*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "610c4d68-cadd-476f-b8f5-758ff3b4ad17")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R_AAF")
+			(value "100R_1%")
+			(footprint "Resistor_SMD:R_0603_1608Metric")
+			(description "Anti-Aliasing Filter Resistor")
+			(fields
+				(field
+					(name "Footprint") "Resistor_SMD:R_0603_1608Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Anti-Aliasing Filter Resistor")
+			)
+			(libsource
+				(lib "Device")
+				(part "R")
+				(description "Resistor")
+			)
+			(property
+				(name "Sheetname")
+				(value "SoC8767_Test_PCB")
+			)
+			(property
+				(name "Sheetfile")
+				(value "SoC8767_Test_PCB.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "f2750f32-1259-4018-9915-b40dd6cabffc")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R_DAMP")
+			(value "27R_1%")
+			(footprint "Resistor_SMD:R_0603_1608Metric")
+			(description "Clock Series Damping Resistor")
+			(fields
+				(field
+					(name "Footprint") "Resistor_SMD:R_0603_1608Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Clock Series Damping Resistor")
+			)
+			(libsource
+				(lib "Device")
+				(part "R")
+				(description "Resistor")
+			)
+			(property
+				(name "Sheetname")
+				(value "SoC8767_Test_PCB")
+			)
+			(property
+				(name "Sheetfile")
+				(value "SoC8767_Test_PCB.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "12d3768e-7cc9-4024-81d1-73f08dae5cb1")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R_LED_1V2")
+			(value "470R")
+			(footprint "Resistor_SMD:R_0603_1608Metric")
+			(description "1.2V LED Resistor")
+			(fields
+				(field
+					(name "Footprint") "Resistor_SMD:R_0603_1608Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "1.2V LED Resistor")
+			)
+			(libsource
+				(lib "Device")
+				(part "R")
+				(description "Resistor")
+			)
+			(property
+				(name "Sheetname")
+				(value "SoC8767_Test_PCB")
+			)
+			(property
+				(name "Sheetfile")
+				(value "SoC8767_Test_PCB.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "c9dbbf54-d84f-43ec-9864-bcfb79674951")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R_LED_3V3")
+			(value "1k")
+			(footprint "Resistor_SMD:R_0603_1608Metric")
+			(description "3.3V LED Resistor")
+			(fields
+				(field
+					(name "Footprint") "Resistor_SMD:R_0603_1608Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "3.3V LED Resistor")
+			)
+			(libsource
+				(lib "Device")
+				(part "R")
+				(description "Resistor")
+			)
+			(property
+				(name "Sheetname")
+				(value "SoC8767_Test_PCB")
+			)
+			(property
+				(name "Sheetfile")
+				(value "SoC8767_Test_PCB.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "38ee0096-7fa4-4ad1-8f4f-da47dbc10376")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R_LED_ALM")
+			(value "1k")
+			(footprint "Resistor_SMD:R_0603_1608Metric")
+			(description "Alarm LED Resistor")
+			(fields
+				(field
+					(name "Footprint") "Resistor_SMD:R_0603_1608Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Alarm LED Resistor")
+			)
+			(libsource
+				(lib "Device")
+				(part "R")
+				(description "Resistor")
+			)
+			(property
+				(name "Sheetname")
+				(value "SoC8767_Test_PCB")
+			)
+			(property
+				(name "Sheetfile")
+				(value "SoC8767_Test_PCB.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "babca324-1788-4b28-bb2f-508f8faa568f")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R_PD_EN")
+			(value "10k")
+			(footprint "Resistor_SMD:R_0603_1608Metric")
+			(description "ENABLE Pull-Down")
+			(fields
+				(field
+					(name "Footprint") "Resistor_SMD:R_0603_1608Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "ENABLE Pull-Down")
+			)
+			(libsource
+				(lib "Device")
+				(part "R")
+				(description "Resistor")
+			)
+			(property
+				(name "Sheetname")
+				(value "SoC8767_Test_PCB")
+			)
+			(property
+				(name "Sheetfile")
+				(value "SoC8767_Test_PCB.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "6b44072f-0044-4368-91b1-1c3b5705e99f")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R_PU_ALRT")
+			(value "10k")
+			(footprint "Resistor_SMD:R_0603_1608Metric")
+			(description "TMP117 Alert Pull-Up")
+			(fields
+				(field
+					(name "Footprint") "Resistor_SMD:R_0603_1608Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "TMP117 Alert Pull-Up")
+			)
+			(libsource
+				(lib "Device")
+				(part "R")
+				(description "Resistor")
+			)
+			(property
+				(name "Sheetname")
+				(value "SoC8767_Test_PCB")
+			)
+			(property
+				(name "Sheetfile")
+				(value "SoC8767_Test_PCB.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "3ed569de-7a1b-4656-b607-dd84c5d4b9e8")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R_PU_RST")
+			(value "10k")
+			(footprint "Resistor_SMD:R_0603_1608Metric")
+			(description "RESET Pull-Up")
+			(fields
+				(field
+					(name "Footprint") "Resistor_SMD:R_0603_1608Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "RESET Pull-Up")
+			)
+			(libsource
+				(lib "Device")
+				(part "R")
+				(description "Resistor")
+			)
+			(property
+				(name "Sheetname")
+				(value "SoC8767_Test_PCB")
+			)
+			(property
+				(name "Sheetfile")
+				(value "SoC8767_Test_PCB.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "3f529cc7-4184-458c-9209-dcab1e8d421f")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R_PU_SCL1")
+			(value "3k3_1%")
+			(footprint "Resistor_SMD:R_0603_1608Metric")
+			(description "1.2V SCL Pull-Up")
+			(fields
+				(field
+					(name "Footprint") "Resistor_SMD:R_0603_1608Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "1.2V SCL Pull-Up")
+			)
+			(libsource
+				(lib "Device")
+				(part "R")
+				(description "Resistor")
+			)
+			(property
+				(name "Sheetname")
+				(value "SoC8767_Test_PCB")
+			)
+			(property
+				(name "Sheetfile")
+				(value "SoC8767_Test_PCB.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "250ada2c-90ad-4e8e-8a9f-720637d1cd81")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R_PU_SCL2")
+			(value "4k7_1%")
+			(footprint "Resistor_SMD:R_0603_1608Metric")
+			(description "3.3V SCL Pull-Up")
+			(fields
+				(field
+					(name "Footprint") "Resistor_SMD:R_0603_1608Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "3.3V SCL Pull-Up")
+			)
+			(libsource
+				(lib "Device")
+				(part "R")
+				(description "Resistor")
+			)
+			(property
+				(name "Sheetname")
+				(value "SoC8767_Test_PCB")
+			)
+			(property
+				(name "Sheetfile")
+				(value "SoC8767_Test_PCB.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "25193d45-d146-42e3-8ce6-fa0e5c4050d4")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R_PU_SDA1")
+			(value "3k3_1%")
+			(footprint "Resistor_SMD:R_0603_1608Metric")
+			(description "1.2V SDA Pull-Up")
+			(fields
+				(field
+					(name "Footprint") "Resistor_SMD:R_0603_1608Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "1.2V SDA Pull-Up")
+			)
+			(libsource
+				(lib "Device")
+				(part "R")
+				(description "Resistor")
+			)
+			(property
+				(name "Sheetname")
+				(value "SoC8767_Test_PCB")
+			)
+			(property
+				(name "Sheetfile")
+				(value "SoC8767_Test_PCB.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "2aecc820-7233-4567-a132-57cdd99e9796")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R_PU_SDA2")
+			(value "4k7_1%")
+			(footprint "Resistor_SMD:R_0603_1608Metric")
+			(description "3.3V SDA Pull-Up")
+			(fields
+				(field
+					(name "Footprint") "Resistor_SMD:R_0603_1608Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "3.3V SDA Pull-Up")
+			)
+			(libsource
+				(lib "Device")
+				(part "R")
+				(description "Resistor")
+			)
+			(property
+				(name "Sheetname")
+				(value "SoC8767_Test_PCB")
+			)
+			(property
+				(name "Sheetfile")
+				(value "SoC8767_Test_PCB.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "674c161c-e43f-462e-a537-9e3ac9851f31")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R_SENSE_ANA")
+			(value "1R_1%")
+			(footprint "Resistor_SMD:R_0603_1608Metric")
+			(description "Analog Core Current Sense Shunt")
+			(fields
+				(field
+					(name "Footprint") "Resistor_SMD:R_0603_1608Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Analog Core Current Sense Shunt")
+			)
+			(libsource
+				(lib "Device")
+				(part "R")
+				(description "Resistor")
+			)
+			(property
+				(name "Sheetname")
+				(value "SoC8767_Test_PCB")
+			)
+			(property
+				(name "Sheetfile")
+				(value "SoC8767_Test_PCB.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "706744df-7664-4ddb-a528-6af6daaefe9a")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R_SENSE_DIG")
+			(value "1R_1%")
+			(footprint "Resistor_SMD:R_0603_1608Metric")
+			(description "Digital Core Current Sense Shunt")
+			(fields
+				(field
+					(name "Footprint") "Resistor_SMD:R_0603_1608Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Digital Core Current Sense Shunt")
+			)
+			(libsource
+				(lib "Device")
+				(part "R")
+				(description "Resistor")
+			)
+			(property
+				(name "Sheetname")
+				(value "SoC8767_Test_PCB")
+			)
+			(property
+				(name "Sheetfile")
+				(value "SoC8767_Test_PCB.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "1e676a4a-cec0-4cdd-bb4a-2e1344334df6")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R_SENSE_MAIN")
+			(value "1R_1%")
+			(footprint "Resistor_SMD:R_0805_2012Metric")
+			(description "Main 3.3V Current Sense Shunt")
+			(fields
+				(field
+					(name "Footprint") "Resistor_SMD:R_0805_2012Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Main 3.3V Current Sense Shunt")
+			)
+			(libsource
+				(lib "Device")
+				(part "R")
+				(description "Resistor")
+			)
+			(property
+				(name "Sheetname")
+				(value "SoC8767_Test_PCB")
+			)
+			(property
+				(name "Sheetfile")
+				(value "SoC8767_Test_PCB.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "8e950540-014c-4042-9a37-e5bb655ac6a1")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R_SENS_LOAD")
+			(value "10k")
+			(footprint "Resistor_SMD:R_0603_1608Metric")
+			(description "Sensor Load / Divider Resistor")
+			(fields
+				(field
+					(name "Footprint") "Resistor_SMD:R_0603_1608Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Sensor Load / Divider Resistor")
+			)
+			(libsource
+				(lib "Device")
+				(part "R")
+				(description "Resistor")
+			)
+			(property
+				(name "Sheetname")
+				(value "SoC8767_Test_PCB")
+			)
+			(property
+				(name "Sheetfile")
+				(value "SoC8767_Test_PCB.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "9bd83f7b-e5df-4000-9ec1-b525b7adb445")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R_TERM_CLK")
+			(value "49R9_1%")
+			(footprint "Resistor_SMD:R_0603_1608Metric")
+			(description "50 Ohm Clock Termination")
+			(fields
+				(field
+					(name "Footprint") "Resistor_SMD:R_0603_1608Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "50 Ohm Clock Termination")
+			)
+			(libsource
+				(lib "Device")
+				(part "R")
+				(description "Resistor")
+			)
+			(property
+				(name "Sheetname")
+				(value "SoC8767_Test_PCB")
+			)
+			(property
+				(name "Sheetfile")
+				(value "SoC8767_Test_PCB.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "ac2162de-d0f4-428b-b12a-c00371413ca4")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "SMA_BGR")
+			(value "SMA_BGR")
+			(footprint "Connector_Coaxial:SMA_Amphenol_132134_Vertical")
+			(description "Buffered BGR Output SMA")
+			(fields
+				(field
+					(name "Footprint") "Connector_Coaxial:SMA_Amphenol_132134_Vertical")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Buffered BGR Output SMA")
+			)
+			(libsource
+				(lib "Connector")
+				(part "Conn_Coaxial")
+				(description "coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)")
+			)
+			(property
+				(name "Sheetname")
+				(value "SoC8767_Test_PCB")
+			)
+			(property
+				(name "Sheetfile")
+				(value "SoC8767_Test_PCB.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "BNC SMA SMB SMC LEMO coaxial connector CINCH RCA MCX MMCX U.FL UMRF")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "*BNC* *SMA* *SMB* *SMC* *Cinch* *LEMO* *UMRF* *MCX* *U.FL*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "284b88cd-3e12-44ef-b0f9-7f411b45c175")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "SMA_CAL")
+			(value "SMA_CAL")
+			(footprint "Connector_Coaxial:SMA_Amphenol_132134_Vertical")
+			(description "Precision Calibration Input SMA")
+			(fields
+				(field
+					(name "Footprint") "Connector_Coaxial:SMA_Amphenol_132134_Vertical")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Precision Calibration Input SMA")
+			)
+			(libsource
+				(lib "Connector")
+				(part "Conn_Coaxial")
+				(description "coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)")
+			)
+			(property
+				(name "Sheetname")
+				(value "SoC8767_Test_PCB")
+			)
+			(property
+				(name "Sheetfile")
+				(value "SoC8767_Test_PCB.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "BNC SMA SMB SMC LEMO coaxial connector CINCH RCA MCX MMCX U.FL UMRF")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "*BNC* *SMA* *SMB* *SMC* *Cinch* *LEMO* *UMRF* *MCX* *U.FL*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "b52c1632-31c7-4ea1-a95f-4fa68eb62af4")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "SMA_CLK_A")
+			(value "SMA_CLK_A")
+			(footprint "Connector_Coaxial:SMA_Amphenol_132134_Vertical")
+			(description "Buffered CLK_A SMA Output")
+			(fields
+				(field
+					(name "Footprint") "Connector_Coaxial:SMA_Amphenol_132134_Vertical")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Buffered CLK_A SMA Output")
+			)
+			(libsource
+				(lib "Connector")
+				(part "Conn_Coaxial")
+				(description "coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)")
+			)
+			(property
+				(name "Sheetname")
+				(value "SoC8767_Test_PCB")
+			)
+			(property
+				(name "Sheetfile")
+				(value "SoC8767_Test_PCB.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "BNC SMA SMB SMC LEMO coaxial connector CINCH RCA MCX MMCX U.FL UMRF")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "*BNC* *SMA* *SMB* *SMC* *Cinch* *LEMO* *UMRF* *MCX* *U.FL*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "203b0898-9b61-4619-9dcd-822f85d15a3f")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "SMA_CLK_D")
+			(value "SMA_CLK_D")
+			(footprint "Connector_Coaxial:SMA_Amphenol_132134_Vertical")
+			(description "External Clock Input SMA")
+			(fields
+				(field
+					(name "Footprint") "Connector_Coaxial:SMA_Amphenol_132134_Vertical")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "External Clock Input SMA")
+			)
+			(libsource
+				(lib "Connector")
+				(part "Conn_Coaxial")
+				(description "coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)")
+			)
+			(property
+				(name "Sheetname")
+				(value "SoC8767_Test_PCB")
+			)
+			(property
+				(name "Sheetfile")
+				(value "SoC8767_Test_PCB.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "BNC SMA SMB SMC LEMO coaxial connector CINCH RCA MCX MMCX U.FL UMRF")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "*BNC* *SMA* *SMB* *SMC* *Cinch* *LEMO* *UMRF* *MCX* *U.FL*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "ca3f6699-76c5-4d50-8b4e-ba0500f2cd53")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "TP_1V2")
+			(value "TP_1V2")
+			(footprint "TestPoint:TestPoint_Pad_D1.5mm")
+			(description "1.2V Rail Test Point")
+			(fields
+				(field
+					(name "Footprint") "TestPoint:TestPoint_Pad_D1.5mm")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "1.2V Rail Test Point")
+			)
+			(libsource
+				(lib "Connector")
+				(part "TestPoint")
+				(description "test point")
+			)
+			(property
+				(name "Sheetname")
+				(value "SoC8767_Test_PCB")
+			)
+			(property
+				(name "Sheetfile")
+				(value "SoC8767_Test_PCB.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "test point tp")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "Pin* Test*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "afe77242-0fbb-4c4c-891e-1723eb5b29ac")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "TP_ALRT")
+			(value "TP_ALRT")
+			(footprint "TestPoint:TestPoint_Pad_D1.5mm")
+			(description "TMP117 Alert Test Point")
+			(fields
+				(field
+					(name "Footprint") "TestPoint:TestPoint_Pad_D1.5mm")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "TMP117 Alert Test Point")
+			)
+			(libsource
+				(lib "Connector")
+				(part "TestPoint")
+				(description "test point")
+			)
+			(property
+				(name "Sheetname")
+				(value "SoC8767_Test_PCB")
+			)
+			(property
+				(name "Sheetfile")
+				(value "SoC8767_Test_PCB.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "test point tp")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "Pin* Test*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "bffa42a1-f1a0-496f-9b4f-41c28da06ae5")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "TP_ANA_INT")
+			(value "TP_ANA_INT")
+			(footprint "TestPoint:TestPoint_Pad_D1.5mm")
+			(description "Internal Analog LDO Test Point")
+			(fields
+				(field
+					(name "Footprint") "TestPoint:TestPoint_Pad_D1.5mm")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Internal Analog LDO Test Point")
+			)
+			(libsource
+				(lib "Connector")
+				(part "TestPoint")
+				(description "test point")
+			)
+			(property
+				(name "Sheetname")
+				(value "SoC8767_Test_PCB")
+			)
+			(property
+				(name "Sheetfile")
+				(value "SoC8767_Test_PCB.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "test point tp")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "Pin* Test*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "8f5ddaa6-e56d-4956-99dd-0e25931dda9b")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "TP_BGR")
+			(value "TP_BGR")
+			(footprint "TestPoint:TestPoint_Pad_D1.5mm")
+			(description "BGR Raw Test Point")
+			(fields
+				(field
+					(name "Footprint") "TestPoint:TestPoint_Pad_D1.5mm")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "BGR Raw Test Point")
+			)
+			(libsource
+				(lib "Connector")
+				(part "TestPoint")
+				(description "test point")
+			)
+			(property
+				(name "Sheetname")
+				(value "SoC8767_Test_PCB")
+			)
+			(property
+				(name "Sheetfile")
+				(value "SoC8767_Test_PCB.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "test point tp")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "Pin* Test*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "3f394e63-66f0-4123-bbbd-58e322c28ba5")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "TP_BGR_BUF")
+			(value "TP_BGR_BUF")
+			(footprint "TestPoint:TestPoint_Pad_D1.5mm")
+			(description "Buffered BGR Test Point")
+			(fields
+				(field
+					(name "Footprint") "TestPoint:TestPoint_Pad_D1.5mm")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Buffered BGR Test Point")
+			)
+			(libsource
+				(lib "Connector")
+				(part "TestPoint")
+				(description "test point")
+			)
+			(property
+				(name "Sheetname")
+				(value "SoC8767_Test_PCB")
+			)
+			(property
+				(name "Sheetfile")
+				(value "SoC8767_Test_PCB.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "test point tp")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "Pin* Test*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "44495f8c-2af2-4b9c-8bd9-a3deb53dae1b")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "TP_BGR_EXT")
+			(value "TP_BGR_EXT")
+			(footprint "TestPoint:TestPoint_Pad_D1.5mm")
+			(description "BGR External SMU Overdrive Test Point")
+			(fields
+				(field
+					(name "Footprint") "TestPoint:TestPoint_Pad_D1.5mm")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "BGR External SMU Overdrive Test Point")
+			)
+			(libsource
+				(lib "Connector")
+				(part "TestPoint")
+				(description "test point")
+			)
+			(property
+				(name "Sheetname")
+				(value "SoC8767_Test_PCB")
+			)
+			(property
+				(name "Sheetfile")
+				(value "SoC8767_Test_PCB.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "test point tp")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "Pin* Test*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "f00ba202-7163-4f3e-8018-a4912492b467")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "TP_CLKA_BUF")
+			(value "TP_CLK_A")
+			(footprint "TestPoint:TestPoint_Pad_D1.5mm")
+			(description "Buffered CLK_A Test Point")
+			(fields
+				(field
+					(name "Footprint") "TestPoint:TestPoint_Pad_D1.5mm")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Buffered CLK_A Test Point")
+			)
+			(libsource
+				(lib "Connector")
+				(part "TestPoint")
+				(description "test point")
+			)
+			(property
+				(name "Sheetname")
+				(value "SoC8767_Test_PCB")
+			)
+			(property
+				(name "Sheetfile")
+				(value "SoC8767_Test_PCB.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "test point tp")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "Pin* Test*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "989c7197-1c96-47f4-b150-b120402ca704")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "TP_CLK_D")
+			(value "TP_CLK_D")
+			(footprint "TestPoint:TestPoint_Pad_D1.5mm")
+			(description "CLK_D Test Point")
+			(fields
+				(field
+					(name "Footprint") "TestPoint:TestPoint_Pad_D1.5mm")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "CLK_D Test Point")
+			)
+			(libsource
+				(lib "Connector")
+				(part "TestPoint")
+				(description "test point")
+			)
+			(property
+				(name "Sheetname")
+				(value "SoC8767_Test_PCB")
+			)
+			(property
+				(name "Sheetfile")
+				(value "SoC8767_Test_PCB.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "test point tp")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "Pin* Test*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "719a0319-0d44-4d06-a012-c0a9c3799301")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "TP_CLK_LS")
+			(value "TP_CLK_LS")
+			(footprint "TestPoint:TestPoint_Pad_D1.5mm")
+			(description "Host MCU Translated Clock Test Point")
+			(fields
+				(field
+					(name "Footprint") "TestPoint:TestPoint_Pad_D1.5mm")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Host MCU Translated Clock Test Point")
+			)
+			(libsource
+				(lib "Connector")
+				(part "TestPoint")
+				(description "test point")
+			)
+			(property
+				(name "Sheetname")
+				(value "SoC8767_Test_PCB")
+			)
+			(property
+				(name "Sheetfile")
+				(value "SoC8767_Test_PCB.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "test point tp")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "Pin* Test*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "68cbafe5-3995-4e3f-8ec5-5c934b7cf29e")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "TP_DIG_INT")
+			(value "TP_DIG_INT")
+			(footprint "TestPoint:TestPoint_Pad_D1.5mm")
+			(description "Internal Digital LDO Test Point")
+			(fields
+				(field
+					(name "Footprint") "TestPoint:TestPoint_Pad_D1.5mm")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Internal Digital LDO Test Point")
+			)
+			(libsource
+				(lib "Connector")
+				(part "TestPoint")
+				(description "test point")
+			)
+			(property
+				(name "Sheetname")
+				(value "SoC8767_Test_PCB")
+			)
+			(property
+				(name "Sheetfile")
+				(value "SoC8767_Test_PCB.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "test point tp")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "Pin* Test*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "adf33a8b-1616-4526-9f8e-1630018626cb")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "TP_GND_MAIN")
+			(value "GND_LOOP")
+			(footprint "TestPoint:TestPoint_Keystone_5015_Micro_Mini")
+			(description "Scope Ground Loop near Main Power")
+			(fields
+				(field
+					(name "Footprint") "TestPoint:TestPoint_Keystone_5015_Micro_Mini")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Scope Ground Loop near Main Power")
+			)
+			(libsource
+				(lib "Connector")
+				(part "TestPoint")
+				(description "test point")
+			)
+			(property
+				(name "Sheetname")
+				(value "SoC8767_Test_PCB")
+			)
+			(property
+				(name "Sheetfile")
+				(value "SoC8767_Test_PCB.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "test point tp")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "Pin* Test*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "d0031bf3-e17f-4ee4-a48c-659244be2ba8")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "TP_GND_SMA1")
+			(value "GND_LOOP")
+			(footprint "TestPoint:TestPoint_Keystone_5015_Micro_Mini")
+			(description "Scope Ground Loop near SMA_BGR")
+			(fields
+				(field
+					(name "Footprint") "TestPoint:TestPoint_Keystone_5015_Micro_Mini")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Scope Ground Loop near SMA_BGR")
+			)
+			(libsource
+				(lib "Connector")
+				(part "TestPoint")
+				(description "test point")
+			)
+			(property
+				(name "Sheetname")
+				(value "SoC8767_Test_PCB")
+			)
+			(property
+				(name "Sheetfile")
+				(value "SoC8767_Test_PCB.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "test point tp")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "Pin* Test*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "c0d49146-cf15-440b-ab31-c4584971af10")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "TP_GND_SMA2")
+			(value "GND_LOOP")
+			(footprint "TestPoint:TestPoint_Keystone_5015_Micro_Mini")
+			(description "Scope Ground Loop near SMA_CAL")
+			(fields
+				(field
+					(name "Footprint") "TestPoint:TestPoint_Keystone_5015_Micro_Mini")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Scope Ground Loop near SMA_CAL")
+			)
+			(libsource
+				(lib "Connector")
+				(part "TestPoint")
+				(description "test point")
+			)
+			(property
+				(name "Sheetname")
+				(value "SoC8767_Test_PCB")
+			)
+			(property
+				(name "Sheetfile")
+				(value "SoC8767_Test_PCB.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "test point tp")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "Pin* Test*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "b5451233-431a-4193-a1b6-4f5b7a05f737")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "TP_GND_SMA3")
+			(value "GND_LOOP")
+			(footprint "TestPoint:TestPoint_Keystone_5015_Micro_Mini")
+			(description "Scope Ground Loop near SMA_CLK_D")
+			(fields
+				(field
+					(name "Footprint") "TestPoint:TestPoint_Keystone_5015_Micro_Mini")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Scope Ground Loop near SMA_CLK_D")
+			)
+			(libsource
+				(lib "Connector")
+				(part "TestPoint")
+				(description "test point")
+			)
+			(property
+				(name "Sheetname")
+				(value "SoC8767_Test_PCB")
+			)
+			(property
+				(name "Sheetfile")
+				(value "SoC8767_Test_PCB.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "test point tp")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "Pin* Test*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "5a66fc7e-b408-4e1b-8884-ec5eae7308e8")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "TP_GND_SMA4")
+			(value "GND_LOOP")
+			(footprint "TestPoint:TestPoint_Keystone_5015_Micro_Mini")
+			(description "Scope Ground Loop near SMA_CLK_A")
+			(fields
+				(field
+					(name "Footprint") "TestPoint:TestPoint_Keystone_5015_Micro_Mini")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Scope Ground Loop near SMA_CLK_A")
+			)
+			(libsource
+				(lib "Connector")
+				(part "TestPoint")
+				(description "test point")
+			)
+			(property
+				(name "Sheetname")
+				(value "SoC8767_Test_PCB")
+			)
+			(property
+				(name "Sheetfile")
+				(value "SoC8767_Test_PCB.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "test point tp")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "Pin* Test*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "a5e462e9-54a1-4e4a-9e5b-dae7135fdd11")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "TP_IN_SENS")
+			(value "TP_IN_SENS")
+			(footprint "TestPoint:TestPoint_Pad_D1.5mm")
+			(description "IN_SENS Test Point")
+			(fields
+				(field
+					(name "Footprint") "TestPoint:TestPoint_Pad_D1.5mm")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "IN_SENS Test Point")
+			)
+			(libsource
+				(lib "Connector")
+				(part "TestPoint")
+				(description "test point")
+			)
+			(property
+				(name "Sheetname")
+				(value "SoC8767_Test_PCB")
+			)
+			(property
+				(name "Sheetfile")
+				(value "SoC8767_Test_PCB.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "test point tp")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "Pin* Test*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "be968448-3369-4aa3-957b-71af2018961a")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "TP_PWR_IN")
+			(value "TP_PWR_3V3")
+			(footprint "TestPoint:TestPoint_Pad_D1.5mm")
+			(description "3.3V In Test Point")
+			(fields
+				(field
+					(name "Footprint") "TestPoint:TestPoint_Pad_D1.5mm")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "3.3V In Test Point")
+			)
+			(libsource
+				(lib "Connector")
+				(part "TestPoint")
+				(description "test point")
+			)
+			(property
+				(name "Sheetname")
+				(value "SoC8767_Test_PCB")
+			)
+			(property
+				(name "Sheetfile")
+				(value "SoC8767_Test_PCB.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "test point tp")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "Pin* Test*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "b05d1da1-75a3-4d8d-aa27-a70fdcbdc4fb")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "TP_SCL_1V2")
+			(value "TP_SCL_1V2")
+			(footprint "TestPoint:TestPoint_Pad_D1.5mm")
+			(description "1.2V SCL Test Point")
+			(fields
+				(field
+					(name "Footprint") "TestPoint:TestPoint_Pad_D1.5mm")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "1.2V SCL Test Point")
+			)
+			(libsource
+				(lib "Connector")
+				(part "TestPoint")
+				(description "test point")
+			)
+			(property
+				(name "Sheetname")
+				(value "SoC8767_Test_PCB")
+			)
+			(property
+				(name "Sheetfile")
+				(value "SoC8767_Test_PCB.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "test point tp")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "Pin* Test*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "c557525e-8f68-4364-94b6-8c2f03fa9a30")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "TP_SCL_3V3")
+			(value "TP_SCL_3V3")
+			(footprint "TestPoint:TestPoint_Pad_D1.5mm")
+			(description "3.3V SCL Test Point")
+			(fields
+				(field
+					(name "Footprint") "TestPoint:TestPoint_Pad_D1.5mm")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "3.3V SCL Test Point")
+			)
+			(libsource
+				(lib "Connector")
+				(part "TestPoint")
+				(description "test point")
+			)
+			(property
+				(name "Sheetname")
+				(value "SoC8767_Test_PCB")
+			)
+			(property
+				(name "Sheetfile")
+				(value "SoC8767_Test_PCB.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "test point tp")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "Pin* Test*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "839b5ae7-3caa-4d14-9f96-cc5b92f6c472")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "TP_SDA_1V2")
+			(value "TP_SDA_1V2")
+			(footprint "TestPoint:TestPoint_Pad_D1.5mm")
+			(description "1.2V SDA Test Point")
+			(fields
+				(field
+					(name "Footprint") "TestPoint:TestPoint_Pad_D1.5mm")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "1.2V SDA Test Point")
+			)
+			(libsource
+				(lib "Connector")
+				(part "TestPoint")
+				(description "test point")
+			)
+			(property
+				(name "Sheetname")
+				(value "SoC8767_Test_PCB")
+			)
+			(property
+				(name "Sheetfile")
+				(value "SoC8767_Test_PCB.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "test point tp")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "Pin* Test*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "d81a5208-5500-4dc1-ab8c-358306016d6a")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "TP_SDA_3V3")
+			(value "TP_SDA_3V3")
+			(footprint "TestPoint:TestPoint_Pad_D1.5mm")
+			(description "3.3V SDA Test Point")
+			(fields
+				(field
+					(name "Footprint") "TestPoint:TestPoint_Pad_D1.5mm")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "3.3V SDA Test Point")
+			)
+			(libsource
+				(lib "Connector")
+				(part "TestPoint")
+				(description "test point")
+			)
+			(property
+				(name "Sheetname")
+				(value "SoC8767_Test_PCB")
+			)
+			(property
+				(name "Sheetfile")
+				(value "SoC8767_Test_PCB.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "test point tp")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "Pin* Test*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "54c6d88c-0191-4eac-bac7-0a8ab2563d01")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "TP_VDD_SOC")
+			(value "TP_VDD_3V3")
+			(footprint "TestPoint:TestPoint_Pad_D1.5mm")
+			(description "VDD_3V3_SOC Test Point")
+			(fields
+				(field
+					(name "Footprint") "TestPoint:TestPoint_Pad_D1.5mm")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "VDD_3V3_SOC Test Point")
+			)
+			(libsource
+				(lib "Connector")
+				(part "TestPoint")
+				(description "test point")
+			)
+			(property
+				(name "Sheetname")
+				(value "SoC8767_Test_PCB")
+			)
+			(property
+				(name "Sheetfile")
+				(value "SoC8767_Test_PCB.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "test point tp")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "Pin* Test*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "a34eeb89-bc4c-4778-b5b6-3e5cc068c896")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "U1")
+			(value "SoC8767")
+			(footprint "SoC8767:SoC8767_QFN24")
+			(description "Combustible Gas Monitoring Mixed-Signal SoC")
+			(fields
+				(field
+					(name "Footprint") "SoC8767:SoC8767_QFN24")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Combustible Gas Monitoring Mixed-Signal SoC")
+			)
+			(libsource
+				(lib "SoC8767")
+				(part "SoC8767")
+				(description "Combustible Gas Monitoring Mixed-Signal SoC (IHP SG13G2 130nm BiCMOS), QFN-24")
+			)
+			(property
+				(name "Sheetname")
+				(value "SoC8767_Test_PCB")
+			)
+			(property
+				(name "Sheetfile")
+				(value "SoC8767_Test_PCB.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "SoC Gas Sensor Mixed-Signal IHP SG13G2 QFN-24 BGR LDO SAR ADC I2C")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "*QFN*4x4mm*P0.5mm*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "39d0464c-a1bb-4117-88e5-2e03e6ca32b9")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "4")
+						)
+						(pin
+							(num "5")
+						)
+						(pin
+							(num "6")
+						)
+						(pin
+							(num "7")
+						)
+						(pin
+							(num "24")
+						)
+						(pin
+							(num "8")
+						)
+						(pin
+							(num "23")
+						)
+						(pin
+							(num "9")
+						)
+						(pin
+							(num "22")
+						)
+						(pin
+							(num "25")
+						)
+						(pin
+							(num "21")
+						)
+						(pin
+							(num "10")
+						)
+						(pin
+							(num "20")
+						)
+						(pin
+							(num "11")
+						)
+						(pin
+							(num "19")
+						)
+						(pin
+							(num "12")
+						)
+						(pin
+							(num "18")
+						)
+						(pin
+							(num "17")
+						)
+						(pin
+							(num "16")
+						)
+						(pin
+							(num "15")
+						)
+						(pin
+							(num "14")
+						)
+						(pin
+							(num "13")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "U_BUF1")
+			(value "OPA320")
+			(footprint "Package_TO_SOT_SMD:SOT-23-5")
+			(description "BGR Precision CMOS Unity-Gain Buffer")
+			(fields
+				(field
+					(name "Footprint") "Package_TO_SOT_SMD:SOT-23-5")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "BGR Precision CMOS Unity-Gain Buffer")
+			)
+			(libsource
+				(lib "SoC8767")
+				(part "OPA320")
+				(description "Single Single-Supply, Rail-to-Rail Operational Amplifier, MicroAmplifier Series, SOT-23-5")
+			)
+			(property
+				(name "Sheetname")
+				(value "SoC8767_Test_PCB")
+			)
+			(property
+				(name "Sheetfile")
+				(value "SoC8767_Test_PCB.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "single opamp")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "SOT?23*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "c40ec0f3-6520-43b4-a834-e009ffd7e2a9")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "4")
+						)
+						(pin
+							(num "5")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "U_BUF2")
+			(value "OPA320")
+			(footprint "Package_TO_SOT_SMD:SOT-23-5")
+			(description "CLK_A Precision CMOS Buffer")
+			(fields
+				(field
+					(name "Footprint") "Package_TO_SOT_SMD:SOT-23-5")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "CLK_A Precision CMOS Buffer")
+			)
+			(libsource
+				(lib "SoC8767")
+				(part "OPA320")
+				(description "Single Single-Supply, Rail-to-Rail Operational Amplifier, MicroAmplifier Series, SOT-23-5")
+			)
+			(property
+				(name "Sheetname")
+				(value "SoC8767_Test_PCB")
+			)
+			(property
+				(name "Sheetfile")
+				(value "SoC8767_Test_PCB.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "single opamp")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "SOT?23*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "ad3259ed-e384-49f7-9110-df221fa643dd")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "4")
+						)
+						(pin
+							(num "5")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "U_LDO")
+			(value "TPS7A0512")
+			(footprint "Package_TO_SOT_SMD:SOT-23-5")
+			(description "External 1.2V 200mA Ultra-Low-Noise LDO")
+			(fields
+				(field
+					(name "Footprint") "Package_TO_SOT_SMD:SOT-23-5")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "External 1.2V 200mA Ultra-Low-Noise LDO")
+			)
+			(libsource
+				(lib "Regulator_Linear")
+				(part "TPS7A0512PDBV")
+				(description "200-mA Ultra-Low-Iq LDO, 1.2V, SOT-23-5")
+			)
+			(property
+				(name "Sheetname")
+				(value "SoC8767_Test_PCB")
+			)
+			(property
+				(name "Sheetfile")
+				(value "SoC8767_Test_PCB.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "Single Output LDO Low-Iq")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "SOT?23*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "cb1823a3-3ff3-49b0-80d3-ee164ff6a4e8")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "4")
+						)
+						(pin
+							(num "5")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "U_LS")
+			(value "TXU0304")
+			(footprint "Package_SO:TSSOP-14_4.4x5mm_P0.65mm")
+			(description "4-Channel Dual-Supply Level Translator (3.3V <-> 1.2V)")
+			(fields
+				(field
+					(name "Footprint") "Package_SO:TSSOP-14_4.4x5mm_P0.65mm")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "4-Channel Dual-Supply Level Translator (3.3V <-> 1.2V)")
+			)
+			(libsource
+				(lib "Logic_LevelTranslator")
+				(part "TXU0304PW")
+				(description "4-Bit Fixed Direction Voltage-Level Translator with Schmitt-Trigger Inputs and 3-State Outputs, TSSOP-14")
+			)
+			(property
+				(name "Sheetname")
+				(value "SoC8767_Test_PCB")
+			)
+			(property
+				(name "Sheetfile")
+				(value "SoC8767_Test_PCB.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "Level-Shifter CMOS-TTL-Translation")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "TSSOP*14*5mm*P0.65mm*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "c184758c-ba3d-44a7-8ca5-9abf0232828e")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "8")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "4")
+						)
+						(pin
+							(num "5")
+						)
+						(pin
+							(num "6")
+						)
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "7")
+						)
+						(pin
+							(num "14")
+						)
+						(pin
+							(num "9")
+						)
+						(pin
+							(num "13")
+						)
+						(pin
+							(num "12")
+						)
+						(pin
+							(num "11")
+						)
+						(pin
+							(num "10")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "U_OSC")
+			(value "8MHz_1.2V")
+			(footprint "Oscillator:Oscillator_SMD_EuroQuartz_XO91-4Pin_7.0x5.0mm")
+			(description "1.2V CMOS Clock Oscillator")
+			(fields
+				(field
+					(name "Footprint") "Oscillator:Oscillator_SMD_EuroQuartz_XO91-4Pin_7.0x5.0mm")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "1.2V CMOS Clock Oscillator")
+			)
+			(libsource
+				(lib "Oscillator")
+				(part "XO91")
+				(description "HCMOS Clock Oscillator")
+			)
+			(property
+				(name "Sheetname")
+				(value "SoC8767_Test_PCB")
+			)
+			(property
+				(name "Sheetfile")
+				(value "SoC8767_Test_PCB.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "Crystal Clock Oscillator")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "Oscillator*SMD*EuroQuartz*XO91*7.0x5.0mm*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "625b5d32-227d-4715-a161-2573a77f9bf6")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "4")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "3")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "U_TEMP")
+			(value "TMP117")
+			(footprint "Package_SON:WSON-6-1EP_2x2mm_P0.65mm_EP1x1.6mm")
+			(description "+-0.1C High-Precision Digital Temperature Sensor")
+			(fields
+				(field
+					(name "Footprint") "Package_SON:WSON-6-1EP_2x2mm_P0.65mm_EP1x1.6mm")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "+-0.1C High-Precision Digital Temperature Sensor")
+			)
+			(libsource
+				(lib "Sensor_Temperature")
+				(part "TMP117xxDRV")
+				(description "Digital Temperature Sensor with I2C/SMBus Interface, 16 bits, ±0.3°C, one-shot conversion, alert, nist traceable, EEPROM, WSON")
+			)
+			(property
+				(name "Sheetname")
+				(value "SoC8767_Test_PCB")
+			)
+			(property
+				(name "Sheetfile")
+				(value "SoC8767_Test_PCB.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "digital temperature sensor i2c smbus nist")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "WSON*1EP?2x2mm?P0.65mm?EP1x1.6mm*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "197aab53-bd0d-4cc6-b1b2-333d3d920ea2")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "6")
+						)
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "4")
+						)
+						(pin
+							(num "5")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "3")
+						)
+					)
+				)
+			)
+		)
+	)
+	(groups)
+	(variants)
+	(libparts
+		(libpart
+			(lib "Connector")
+			(part "Conn_Coaxial")
+			(description "coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)")
+			(footprints
+				(fp "*BNC*")
+				(fp "*SMA*")
+				(fp "*SMB*")
+				(fp "*SMC*")
+				(fp "*Cinch*")
+				(fp "*LEMO*")
+				(fp "*UMRF*")
+				(fp "*MCX*")
+				(fp "*U.FL*")
+			)
+			(fields
+				(field
+					(name "Reference") "J")
+				(field
+					(name "Value") "Conn_Coaxial")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "In")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "Ext")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "Connector")
+			(part "TestPoint")
+			(description "test point")
+			(footprints
+				(fp "Pin*")
+				(fp "Test*")
+			)
+			(fields
+				(field
+					(name "Reference") "TP")
+				(field
+					(name "Value") "TestPoint")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "test point")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "1")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "Connector_Generic")
+			(part "Conn_01x02")
+			(description "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)")
+			(footprints
+				(fp "Connector*:*_1x??_*")
+			)
+			(fields
+				(field
+					(name "Reference") "J")
+				(field
+					(name "Value") "Conn_01x02")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "Pin_1")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "Pin_2")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "Connector_Generic")
+			(part "Conn_01x03")
+			(description "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)")
+			(footprints
+				(fp "Connector*:*_1x??_*")
+			)
+			(fields
+				(field
+					(name "Reference") "J")
+				(field
+					(name "Value") "Conn_01x03")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "Pin_1")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "Pin_2")
+					(type "passive")
+				)
+				(pin
+					(num "3")
+					(name "Pin_3")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "Connector_Generic")
+			(part "Conn_01x04")
+			(description "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)")
+			(footprints
+				(fp "Connector*:*_1x??_*")
+			)
+			(fields
+				(field
+					(name "Reference") "J")
+				(field
+					(name "Value") "Conn_01x04")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "Pin_1")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "Pin_2")
+					(type "passive")
+				)
+				(pin
+					(num "3")
+					(name "Pin_3")
+					(type "passive")
+				)
+				(pin
+					(num "4")
+					(name "Pin_4")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "Connector_Generic")
+			(part "Conn_02x06_Odd_Even")
+			(description "Generic connector, double row, 02x06, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)")
+			(footprints
+				(fp "Connector*:*_2x??_*")
+			)
+			(fields
+				(field
+					(name "Reference") "J")
+				(field
+					(name "Value") "Conn_02x06_Odd_Even")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Generic connector, double row, 02x06, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "Pin_1")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "Pin_2")
+					(type "passive")
+				)
+				(pin
+					(num "3")
+					(name "Pin_3")
+					(type "passive")
+				)
+				(pin
+					(num "4")
+					(name "Pin_4")
+					(type "passive")
+				)
+				(pin
+					(num "5")
+					(name "Pin_5")
+					(type "passive")
+				)
+				(pin
+					(num "6")
+					(name "Pin_6")
+					(type "passive")
+				)
+				(pin
+					(num "7")
+					(name "Pin_7")
+					(type "passive")
+				)
+				(pin
+					(num "8")
+					(name "Pin_8")
+					(type "passive")
+				)
+				(pin
+					(num "9")
+					(name "Pin_9")
+					(type "passive")
+				)
+				(pin
+					(num "10")
+					(name "Pin_10")
+					(type "passive")
+				)
+				(pin
+					(num "11")
+					(name "Pin_11")
+					(type "passive")
+				)
+				(pin
+					(num "12")
+					(name "Pin_12")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "Device")
+			(part "C")
+			(description "Unpolarized capacitor")
+			(footprints
+				(fp "C_*")
+			)
+			(fields
+				(field
+					(name "Reference") "C")
+				(field
+					(name "Value") "C")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Unpolarized capacitor")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "Device")
+			(part "LED")
+			(description "Light emitting diode")
+			(footprints
+				(fp "LED*")
+				(fp "LED_SMD:*")
+				(fp "LED_THT:*")
+			)
+			(fields
+				(field
+					(name "Reference") "D")
+				(field
+					(name "Value") "LED")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Light emitting diode")
+				(field
+					(name "Sim.Pins") "1=K 2=A")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "K")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "A")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "Device")
+			(part "R")
+			(description "Resistor")
+			(footprints
+				(fp "R_*")
+			)
+			(fields
+				(field
+					(name "Reference") "R")
+				(field
+					(name "Value") "R")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Resistor")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "Logic_LevelTranslator")
+			(part "TXU0304PW")
+			(description "4-Bit Fixed Direction Voltage-Level Translator with Schmitt-Trigger Inputs and 3-State Outputs, TSSOP-14")
+			(docs "https://www.ti.com/lit/ds/symlink/txu0304.pdf")
+			(footprints
+				(fp "TSSOP*14*5mm*P0.65mm*")
+			)
+			(fields
+				(field
+					(name "Reference") "U")
+				(field
+					(name "Value") "TXU0304PW")
+				(field
+					(name "Footprint") "Package_SO:TSSOP-14_4.4x5mm_P0.65mm")
+				(field
+					(name "Datasheet") "https://www.ti.com/lit/ds/symlink/txu0304.pdf")
+				(field
+					(name "Description") "4-Bit Fixed Direction Voltage-Level Translator with Schmitt-Trigger Inputs and 3-State Outputs, TSSOP-14")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "V_{CCA}")
+					(type "power_in")
+				)
+				(pin
+					(num "2")
+					(name "A1")
+					(type "input")
+				)
+				(pin
+					(num "3")
+					(name "A2")
+					(type "input")
+				)
+				(pin
+					(num "4")
+					(name "A3")
+					(type "input")
+				)
+				(pin
+					(num "5")
+					(name "A4Y")
+					(type "output")
+				)
+				(pin
+					(num "6")
+					(name "NC")
+					(type "no_connect")
+				)
+				(pin
+					(num "7")
+					(name "GND")
+					(type "power_in")
+				)
+				(pin
+					(num "8")
+					(name "OE")
+					(type "input")
+				)
+				(pin
+					(num "9")
+					(name "NC")
+					(type "no_connect")
+				)
+				(pin
+					(num "10")
+					(name "B4")
+					(type "input")
+				)
+				(pin
+					(num "11")
+					(name "B3Y")
+					(type "output")
+				)
+				(pin
+					(num "12")
+					(name "B2Y")
+					(type "output")
+				)
+				(pin
+					(num "13")
+					(name "B1Y")
+					(type "output")
+				)
+				(pin
+					(num "14")
+					(name "V_{CCB}")
+					(type "power_in")
+				)
+			)
+		)
+		(libpart
+			(lib "Oscillator")
+			(part "XO91")
+			(description "HCMOS Clock Oscillator")
+			(docs "http://cdn-reichelt.de/documents/datenblatt/B400/XO91.pdf")
+			(footprints
+				(fp "Oscillator*SMD*EuroQuartz*XO91*7.0x5.0mm*")
+			)
+			(fields
+				(field
+					(name "Reference") "Y")
+				(field
+					(name "Value") "XO91")
+				(field
+					(name "Footprint") "Oscillator:Oscillator_SMD_EuroQuartz_XO91-4Pin_7.0x5.0mm")
+				(field
+					(name "Datasheet") "http://cdn-reichelt.de/documents/datenblatt/B400/XO91.pdf")
+				(field
+					(name "Description") "HCMOS Clock Oscillator")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "EN")
+					(type "input")
+				)
+				(pin
+					(num "2")
+					(name "GND")
+					(type "power_in")
+				)
+				(pin
+					(num "3")
+					(name "OUT")
+					(type "output")
+				)
+				(pin
+					(num "4")
+					(name "V+")
+					(type "power_in")
+				)
+			)
+		)
+		(libpart
+			(lib "Regulator_Linear")
+			(part "TPS7A0512PDBV")
+			(description "200-mA Ultra-Low-Iq LDO, 1.2V, SOT-23-5")
+			(docs "https://www.ti.com/lit/ds/symlink/tps7a05.pdf")
+			(footprints
+				(fp "SOT?23*")
+			)
+			(fields
+				(field
+					(name "Reference") "U")
+				(field
+					(name "Value") "TPS7A0512PDBV")
+				(field
+					(name "Footprint") "Package_TO_SOT_SMD:SOT-23-5")
+				(field
+					(name "Datasheet") "https://www.ti.com/lit/ds/symlink/tps7a05.pdf")
+				(field
+					(name "Description") "200-mA Ultra-Low-Iq LDO, 1.2V, SOT-23-5")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "IN")
+					(type "power_in")
+				)
+				(pin
+					(num "2")
+					(name "GND")
+					(type "power_in")
+				)
+				(pin
+					(num "3")
+					(name "EN")
+					(type "input")
+				)
+				(pin
+					(num "4")
+					(name "NC")
+					(type "no_connect")
+				)
+				(pin
+					(num "5")
+					(name "OUT")
+					(type "power_out")
+				)
+			)
+		)
+		(libpart
+			(lib "Sensor_Temperature")
+			(part "TMP117xxDRV")
+			(description "Digital Temperature Sensor with I2C/SMBus Interface, 16 bits, ±0.3°C, one-shot conversion, alert, nist traceable, EEPROM, WSON")
+			(docs "https://www.ti.com/lit/ds/symlink/tmp117.pdf")
+			(footprints
+				(fp "WSON*1EP?2x2mm?P0.65mm?EP1x1.6mm*")
+			)
+			(fields
+				(field
+					(name "Reference") "U")
+				(field
+					(name "Value") "TMP117xxDRV")
+				(field
+					(name "Footprint") "Package_SON:WSON-6-1EP_2x2mm_P0.65mm_EP1x1.6mm")
+				(field
+					(name "Datasheet") "https://www.ti.com/lit/ds/symlink/tmp117.pdf")
+				(field
+					(name "Description") "Digital Temperature Sensor with I2C/SMBus Interface, 16 bits, ±0.3°C, one-shot conversion, alert, nist traceable, EEPROM, WSON")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "SCL")
+					(type "input")
+				)
+				(pin
+					(num "2")
+					(name "GND")
+					(type "power_in")
+				)
+				(pin
+					(num "3")
+					(name "ALERT")
+					(type "open_collector")
+				)
+				(pin
+					(num "4")
+					(name "ADD0")
+					(type "input")
+				)
+				(pin
+					(num "5")
+					(name "V+")
+					(type "power_in")
+				)
+				(pin
+					(num "6")
+					(name "SDA")
+					(type "bidirectional")
+				)
+			)
+		)
+		(libpart
+			(lib "SoC8767")
+			(part "BSS138")
+			(description "50V Vds, 0.22A Id, N-Channel MOSFET, SOT-23")
+			(docs "https://www.onsemi.com/pub/Collateral/BSS138-D.PDF")
+			(footprints
+				(fp "SOT?23*")
+			)
+			(fields
+				(field
+					(name "Reference") "Q")
+				(field
+					(name "Value") "BSS138")
+				(field
+					(name "Footprint") "Package_TO_SOT_SMD:SOT-23")
+				(field
+					(name "Datasheet") "https://www.onsemi.com/pub/Collateral/BSS138-D.PDF")
+				(field
+					(name "Description") "50V Vds, 0.22A Id, N-Channel MOSFET, SOT-23")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "G")
+					(type "input")
+				)
+				(pin
+					(num "2")
+					(name "S")
+					(type "passive")
+				)
+				(pin
+					(num "3")
+					(name "D")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "SoC8767")
+			(part "OPA320")
+			(description "Single Single-Supply, Rail-to-Rail Operational Amplifier, MicroAmplifier Series, SOT-23-5")
+			(docs "http://www.ti.com/lit/ds/symlink/opa340.pdf")
+			(footprints
+				(fp "SOT?23*")
+			)
+			(fields
+				(field
+					(name "Reference") "U")
+				(field
+					(name "Value") "OPA340NA")
+				(field
+					(name "Footprint") "Package_TO_SOT_SMD:SOT-23-5")
+				(field
+					(name "Datasheet") "http://www.ti.com/lit/ds/symlink/opa340.pdf")
+				(field
+					(name "Description") "Single Single-Supply, Rail-to-Rail Operational Amplifier, MicroAmplifier Series, SOT-23-5")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "")
+					(type "output")
+				)
+				(pin
+					(num "2")
+					(name "V-")
+					(type "power_in")
+				)
+				(pin
+					(num "3")
+					(name "+")
+					(type "input")
+				)
+				(pin
+					(num "4")
+					(name "-")
+					(type "input")
+				)
+				(pin
+					(num "5")
+					(name "V+")
+					(type "power_in")
+				)
+			)
+		)
+		(libpart
+			(lib "SoC8767")
+			(part "SoC8767")
+			(description "Combustible Gas Monitoring Mixed-Signal SoC (IHP SG13G2 130nm BiCMOS), QFN-24")
+			(docs "AIRMODA_SoC_8767_Test_PCB/01_Layout_and_Pinout_Specs/SoC8767_Pinout_and_Characteristics.md")
+			(footprints
+				(fp "*QFN*4x4mm*P0.5mm*")
+			)
+			(fields
+				(field
+					(name "Reference") "U")
+				(field
+					(name "Value") "SoC8767")
+				(field
+					(name "Footprint") "SoC8767:SoC8767_QFN24")
+				(field
+					(name "Datasheet") "AIRMODA_SoC_8767_Test_PCB/01_Layout_and_Pinout_Specs/SoC8767_Pinout_and_Characteristics.md")
+				(field
+					(name "Description") "Combustible Gas Monitoring Mixed-Signal SoC (IHP SG13G2 130nm BiCMOS), QFN-24")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "NC")
+					(type "no_connect")
+				)
+				(pin
+					(num "2")
+					(name "BGR_1V0")
+					(type "bidirectional")
+				)
+				(pin
+					(num "3")
+					(name "VSS")
+					(type "power_in")
+				)
+				(pin
+					(num "4")
+					(name "IN_SENS")
+					(type "input")
+				)
+				(pin
+					(num "5")
+					(name "ALARM")
+					(type "output")
+				)
+				(pin
+					(num "6")
+					(name "NC")
+					(type "no_connect")
+				)
+				(pin
+					(num "7")
+					(name "NC")
+					(type "no_connect")
+				)
+				(pin
+					(num "8")
+					(name "RESET")
+					(type "input")
+				)
+				(pin
+					(num "9")
+					(name "VDD_1V2")
+					(type "power_out")
+				)
+				(pin
+					(num "10")
+					(name "AD0")
+					(type "input")
+				)
+				(pin
+					(num "11")
+					(name "ENABLE")
+					(type "input")
+				)
+				(pin
+					(num "12")
+					(name "NC")
+					(type "no_connect")
+				)
+				(pin
+					(num "13")
+					(name "NC")
+					(type "no_connect")
+				)
+				(pin
+					(num "14")
+					(name "I_SDA")
+					(type "input")
+				)
+				(pin
+					(num "15")
+					(name "I_SCL")
+					(type "input")
+				)
+				(pin
+					(num "16")
+					(name "O_SDA")
+					(type "open_collector")
+				)
+				(pin
+					(num "17")
+					(name "O_SCL")
+					(type "open_collector")
+				)
+				(pin
+					(num "18")
+					(name "NC")
+					(type "no_connect")
+				)
+				(pin
+					(num "19")
+					(name "NC")
+					(type "no_connect")
+				)
+				(pin
+					(num "20")
+					(name "CLK_D")
+					(type "input")
+				)
+				(pin
+					(num "21")
+					(name "CLK_A")
+					(type "output")
+				)
+				(pin
+					(num "22")
+					(name "VDD_1V2")
+					(type "power_out")
+				)
+				(pin
+					(num "23")
+					(name "VDD_3V3")
+					(type "power_in")
+				)
+				(pin
+					(num "24")
+					(name "NC")
+					(type "no_connect")
+				)
+				(pin
+					(num "25")
+					(name "VSS")
+					(type "power_in")
+				)
+			)
+		)
+	)
+	(libraries
+		(library
+			(logical "Connector")
+			(uri "${KICAD10_SYMBOL_DIR}/Connector.kicad_sym")
+		)
+		(library
+			(logical "Connector_Generic")
+			(uri "${KICAD10_SYMBOL_DIR}/Connector_Generic.kicad_sym")
+		)
+		(library
+			(logical "Device")
+			(uri "${KICAD10_SYMBOL_DIR}/Device.kicad_sym")
+		)
+		(library
+			(logical "Logic_LevelTranslator")
+			(uri "${KICAD10_SYMBOL_DIR}/Logic_LevelTranslator.kicad_sym")
+		)
+		(library
+			(logical "Oscillator")
+			(uri "${KICAD10_SYMBOL_DIR}/Oscillator.kicad_sym")
+		)
+		(library
+			(logical "Regulator_Linear")
+			(uri "${KICAD10_SYMBOL_DIR}/Regulator_Linear.kicad_sym")
+		)
+		(library
+			(logical "Sensor_Temperature")
+			(uri "${KICAD10_SYMBOL_DIR}/Sensor_Temperature.kicad_sym")
+		)
+		(library
+			(logical "SoC8767")
+			(uri "${KIPRJMOD}/SoC8767.kicad_sym")
+		)
+	)
+	(nets
+		(net
+			(code "1")
+			(name "+1V2")
+			(class "Default")
+			(node
+				(ref "C_LDO_OUT")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C_LS_B")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C_OSC")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "J_AD0")
+				(pin "1")
+				(pinfunction "Pin_1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "J_LDO_ANA")
+				(pin "3")
+				(pinfunction "Pin_3_3")
+				(pintype "passive")
+			)
+			(node
+				(ref "J_LDO_DIG")
+				(pin "3")
+				(pinfunction "Pin_3_3")
+				(pintype "passive")
+			)
+			(node
+				(ref "Q1")
+				(pin "1")
+				(pinfunction "G_1")
+				(pintype "input")
+			)
+			(node
+				(ref "Q2")
+				(pin "1")
+				(pinfunction "G_1")
+				(pintype "input")
+			)
+			(node
+				(ref "R_LED_1V2")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "R_PU_SCL1")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "R_PU_SDA1")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "R_SENSE_ANA")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "R_SENSE_DIG")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "TP_1V2")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U_LDO")
+				(pin "5")
+				(pinfunction "OUT_5")
+				(pintype "power_out")
+			)
+			(node
+				(ref "U_LS")
+				(pin "14")
+				(pinfunction "V_{CCB}_14")
+				(pintype "power_in")
+			)
+			(node
+				(ref "U_OSC")
+				(pin "1")
+				(pinfunction "EN_1")
+				(pintype "input")
+			)
+			(node
+				(ref "U_OSC")
+				(pin "4")
+				(pinfunction "V+_4")
+				(pintype "power_in")
+			)
+		)
+		(net
+			(code "2")
+			(name "+3V3")
+			(class "Default")
+			(node
+				(ref "C_BUF1")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C_BUF2")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C_LDO_IN")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C_LS_A")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C_MAIN_BULK")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C_TEMP")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "J_HOST")
+				(pin "1")
+				(pinfunction "Pin_1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "J_HOST")
+				(pin "2")
+				(pinfunction "Pin_2_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "J_PWR_IN")
+				(pin "1")
+				(pinfunction "Pin_1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "J_PWR_MAIN")
+				(pin "1")
+				(pinfunction "Pin_1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "J_SENSOR")
+				(pin "1")
+				(pinfunction "Pin_1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "R_LED_3V3")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "R_PU_ALRT")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "R_PU_RST")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "R_PU_SCL2")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "R_PU_SDA2")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "R_SENSE_MAIN")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "TP_PWR_IN")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U_BUF1")
+				(pin "5")
+				(pinfunction "V+_5")
+				(pintype "power_in")
+			)
+			(node
+				(ref "U_BUF2")
+				(pin "5")
+				(pinfunction "V+_5")
+				(pintype "power_in")
+			)
+			(node
+				(ref "U_LDO")
+				(pin "1")
+				(pinfunction "IN_1")
+				(pintype "power_in")
+			)
+			(node
+				(ref "U_LDO")
+				(pin "3")
+				(pinfunction "EN_3")
+				(pintype "input")
+			)
+			(node
+				(ref "U_LS")
+				(pin "1")
+				(pinfunction "V_{CCA}_1")
+				(pintype "power_in")
+			)
+			(node
+				(ref "U_LS")
+				(pin "8")
+				(pinfunction "OE_8")
+				(pintype "input")
+			)
+			(node
+				(ref "U_TEMP")
+				(pin "5")
+				(pinfunction "V+_5")
+				(pintype "power_in")
+			)
+		)
+		(net
+			(code "3")
+			(name "/AD0_SOC")
+			(class "Default")
+			(node
+				(ref "J_AD0")
+				(pin "2")
+				(pinfunction "Pin_2_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "U1")
+				(pin "10")
+				(pinfunction "AD0_10")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "4")
+			(name "/ALARM_1V2")
+			(class "Default")
+			(node
+				(ref "U1")
+				(pin "5")
+				(pinfunction "ALARM_5")
+				(pintype "output")
+			)
+			(node
+				(ref "U_LS")
+				(pin "10")
+				(pinfunction "B4_10")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "5")
+			(name "/ALARM_3V3")
+			(class "Default")
+			(node
+				(ref "J_HOST")
+				(pin "9")
+				(pinfunction "Pin_9_9")
+				(pintype "passive")
+			)
+			(node
+				(ref "R_LED_ALM")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U_LS")
+				(pin "5")
+				(pinfunction "A4Y_5")
+				(pintype "output")
+			)
+		)
+		(net
+			(code "6")
+			(name "/ANA_SENSE_MID")
+			(class "Default")
+			(node
+				(ref "J_LDO_ANA")
+				(pin "2")
+				(pinfunction "Pin_2_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "R_SENSE_ANA")
+				(pin "1")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "7")
+			(name "/BGR_1V0")
+			(class "Default")
+			(node
+				(ref "C_BGR1")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C_BGR2")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "J_BGR")
+				(pin "1")
+				(pinfunction "Pin_1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "TP_BGR")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U1")
+				(pin "2")
+				(pinfunction "BGR_1V0_2")
+				(pintype "bidirectional")
+			)
+			(node
+				(ref "U_BUF1")
+				(pin "3")
+				(pinfunction "+_3")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "8")
+			(name "/BGR_BUF_OUT")
+			(class "Default")
+			(node
+				(ref "SMA_BGR")
+				(pin "1")
+				(pinfunction "In_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "TP_BGR_BUF")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U_BUF1")
+				(pin "1")
+				(pintype "output")
+			)
+			(node
+				(ref "U_BUF1")
+				(pin "4")
+				(pinfunction "-_4")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "9")
+			(name "/BGR_EXT_IN")
+			(class "Default")
+			(node
+				(ref "J_BGR")
+				(pin "2")
+				(pinfunction "Pin_2_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "TP_BGR_EXT")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "10")
+			(name "/CLKA_BUF_OUT")
+			(class "Default")
+			(node
+				(ref "SMA_CLK_A")
+				(pin "1")
+				(pinfunction "In_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "TP_CLKA_BUF")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U_BUF2")
+				(pin "1")
+				(pintype "output")
+			)
+			(node
+				(ref "U_BUF2")
+				(pin "4")
+				(pinfunction "-_4")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "11")
+			(name "/CLK_A_SOC")
+			(class "Default")
+			(node
+				(ref "U1")
+				(pin "21")
+				(pinfunction "CLK_A_21")
+				(pintype "output")
+			)
+			(node
+				(ref "U_BUF2")
+				(pin "3")
+				(pinfunction "+_3")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "12")
+			(name "/CLK_D_3V3")
+			(class "Default")
+			(node
+				(ref "J_HOST")
+				(pin "10")
+				(pinfunction "Pin_10_10")
+				(pintype "passive")
+			)
+			(node
+				(ref "U_LS")
+				(pin "2")
+				(pinfunction "A1_2")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "13")
+			(name "/CLK_D_LS_1V2")
+			(class "Default")
+			(node
+				(ref "J_CLK_SRC")
+				(pin "4")
+				(pinfunction "Pin_4_4")
+				(pintype "passive")
+			)
+			(node
+				(ref "TP_CLK_LS")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U_LS")
+				(pin "13")
+				(pinfunction "B1Y_13")
+				(pintype "output")
+			)
+		)
+		(net
+			(code "14")
+			(name "/CLK_D_SOC")
+			(class "Default")
+			(node
+				(ref "J_CLK_D")
+				(pin "2")
+				(pinfunction "Pin_2_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "TP_CLK_D")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U1")
+				(pin "20")
+				(pinfunction "CLK_D_20")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "15")
+			(name "/CLK_D_SRC")
+			(class "Default")
+			(node
+				(ref "J_CLK_SRC")
+				(pin "2")
+				(pinfunction "Pin_2_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "R_DAMP")
+				(pin "1")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "16")
+			(name "/CLK_D_SRC_DAMPED")
+			(class "Default")
+			(node
+				(ref "J_CLK_D")
+				(pin "1")
+				(pinfunction "Pin_1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "R_DAMP")
+				(pin "2")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "17")
+			(name "/CLK_SMA_IN")
+			(class "Default")
+			(node
+				(ref "J_CLK_SRC")
+				(pin "1")
+				(pinfunction "Pin_1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "R_TERM_CLK")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "SMA_CLK_D")
+				(pin "1")
+				(pinfunction "In_1")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "18")
+			(name "/CLK_TERM_JMP")
+			(class "Default")
+			(node
+				(ref "J_TERM_CLK")
+				(pin "1")
+				(pinfunction "Pin_1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "R_TERM_CLK")
+				(pin "2")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "19")
+			(name "/DIG_SENSE_MID")
+			(class "Default")
+			(node
+				(ref "J_LDO_DIG")
+				(pin "2")
+				(pinfunction "Pin_2_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "R_SENSE_DIG")
+				(pin "1")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "20")
+			(name "/ENABLE_1V2")
+			(class "Default")
+			(node
+				(ref "J_EN")
+				(pin "2")
+				(pinfunction "Pin_2_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "U_LS")
+				(pin "11")
+				(pinfunction "B3Y_11")
+				(pintype "output")
+			)
+		)
+		(net
+			(code "21")
+			(name "/ENABLE_3V3")
+			(class "Default")
+			(node
+				(ref "J_HOST")
+				(pin "8")
+				(pinfunction "Pin_8_8")
+				(pintype "passive")
+			)
+			(node
+				(ref "R_PD_EN")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U_LS")
+				(pin "4")
+				(pinfunction "A3_4")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "22")
+			(name "/ENABLE_SOC")
+			(class "Default")
+			(node
+				(ref "J_EN")
+				(pin "1")
+				(pinfunction "Pin_1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U1")
+				(pin "11")
+				(pinfunction "ENABLE_11")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "23")
+			(name "/IN_SENS_SOC")
+			(class "Default")
+			(node
+				(ref "J_SENS_SRC")
+				(pin "2")
+				(pinfunction "Pin_2_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "TP_IN_SENS")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U1")
+				(pin "4")
+				(pinfunction "IN_SENS_4")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "24")
+			(name "/I_SCL_SOC")
+			(class "Default")
+			(node
+				(ref "J_ISCL")
+				(pin "1")
+				(pinfunction "Pin_1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U1")
+				(pin "15")
+				(pinfunction "I_SCL_15")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "25")
+			(name "/I_SDA_SOC")
+			(class "Default")
+			(node
+				(ref "J_ISDA")
+				(pin "1")
+				(pinfunction "Pin_1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U1")
+				(pin "14")
+				(pinfunction "I_SDA_14")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "26")
+			(name "/LED_1V2_ANODE")
+			(class "Default")
+			(node
+				(ref "D_PWR_1V2")
+				(pin "2")
+				(pinfunction "A_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "R_LED_1V2")
+				(pin "2")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "27")
+			(name "/LED_3V3_ANODE")
+			(class "Default")
+			(node
+				(ref "D_PWR_3V3")
+				(pin "2")
+				(pinfunction "A_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "R_LED_3V3")
+				(pin "2")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "28")
+			(name "/LED_ALM_ANODE")
+			(class "Default")
+			(node
+				(ref "D_ALARM")
+				(pin "2")
+				(pinfunction "A_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "R_LED_ALM")
+				(pin "2")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "29")
+			(name "/OSC_OUT_1V2")
+			(class "Default")
+			(node
+				(ref "J_CLK_SRC")
+				(pin "3")
+				(pinfunction "Pin_3_3")
+				(pintype "passive")
+			)
+			(node
+				(ref "U_OSC")
+				(pin "3")
+				(pinfunction "OUT_3")
+				(pintype "output")
+			)
+		)
+		(net
+			(code "30")
+			(name "/O_SCL_SOC")
+			(class "Default")
+			(node
+				(ref "J_OSCL")
+				(pin "1")
+				(pinfunction "Pin_1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U1")
+				(pin "17")
+				(pinfunction "O_SCL_17")
+				(pintype "open_collector")
+			)
+		)
+		(net
+			(code "31")
+			(name "/O_SDA_SOC")
+			(class "Default")
+			(node
+				(ref "J_OSDA")
+				(pin "1")
+				(pinfunction "Pin_1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U1")
+				(pin "16")
+				(pinfunction "O_SDA_16")
+				(pintype "open_collector")
+			)
+		)
+		(net
+			(code "32")
+			(name "/RESET_1V2")
+			(class "Default")
+			(node
+				(ref "J_RST")
+				(pin "2")
+				(pinfunction "Pin_2_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "U_LS")
+				(pin "12")
+				(pinfunction "B2Y_12")
+				(pintype "output")
+			)
+		)
+		(net
+			(code "33")
+			(name "/RESET_3V3")
+			(class "Default")
+			(node
+				(ref "J_HOST")
+				(pin "7")
+				(pinfunction "Pin_7_7")
+				(pintype "passive")
+			)
+			(node
+				(ref "R_PU_RST")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "U_LS")
+				(pin "3")
+				(pinfunction "A2_3")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "34")
+			(name "/RESET_SOC")
+			(class "Default")
+			(node
+				(ref "J_RST")
+				(pin "1")
+				(pinfunction "Pin_1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U1")
+				(pin "8")
+				(pinfunction "RESET_8")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "35")
+			(name "/SCL_1V2")
+			(class "Default")
+			(node
+				(ref "J_ISCL")
+				(pin "2")
+				(pinfunction "Pin_2_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "J_OSCL")
+				(pin "2")
+				(pinfunction "Pin_2_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "Q2")
+				(pin "2")
+				(pinfunction "S_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "R_PU_SCL1")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "TP_SCL_1V2")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "36")
+			(name "/SCL_3V3")
+			(class "Default")
+			(node
+				(ref "J_HOST")
+				(pin "6")
+				(pinfunction "Pin_6_6")
+				(pintype "passive")
+			)
+			(node
+				(ref "Q2")
+				(pin "3")
+				(pinfunction "D_3")
+				(pintype "passive")
+			)
+			(node
+				(ref "R_PU_SCL2")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "TP_SCL_3V3")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U_TEMP")
+				(pin "1")
+				(pinfunction "SCL_1")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "37")
+			(name "/SDA_1V2")
+			(class "Default")
+			(node
+				(ref "J_ISDA")
+				(pin "2")
+				(pinfunction "Pin_2_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "J_OSDA")
+				(pin "2")
+				(pinfunction "Pin_2_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "Q1")
+				(pin "2")
+				(pinfunction "S_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "R_PU_SDA1")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "TP_SDA_1V2")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "38")
+			(name "/SDA_3V3")
+			(class "Default")
+			(node
+				(ref "J_HOST")
+				(pin "5")
+				(pinfunction "Pin_5_5")
+				(pintype "passive")
+			)
+			(node
+				(ref "Q1")
+				(pin "3")
+				(pinfunction "D_3")
+				(pintype "passive")
+			)
+			(node
+				(ref "R_PU_SDA2")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "TP_SDA_3V3")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U_TEMP")
+				(pin "6")
+				(pinfunction "SDA_6")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "39")
+			(name "/SENSOR_MOD_IN")
+			(class "Default")
+			(node
+				(ref "J_SENSOR")
+				(pin "2")
+				(pinfunction "Pin_2_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "J_SENS_SRC")
+				(pin "3")
+				(pinfunction "Pin_3_3")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "40")
+			(name "/SENSOR_RL_TAP")
+			(class "Default")
+			(node
+				(ref "J_SENSOR")
+				(pin "3")
+				(pinfunction "Pin_3_3")
+				(pintype "passive")
+			)
+			(node
+				(ref "R_SENS_LOAD")
+				(pin "1")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "41")
+			(name "/SMA_CAL_FILT")
+			(class "Default")
+			(node
+				(ref "C_AAF")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "J_SENS_SRC")
+				(pin "1")
+				(pinfunction "Pin_1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "R_AAF")
+				(pin "2")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "42")
+			(name "/SMA_CAL_RAW")
+			(class "Default")
+			(node
+				(ref "R_AAF")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "SMA_CAL")
+				(pin "1")
+				(pinfunction "In_1")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "43")
+			(name "/TEMP_ALERT_3V3")
+			(class "Default")
+			(node
+				(ref "J_HOST")
+				(pin "11")
+				(pinfunction "Pin_11_11")
+				(pintype "passive")
+			)
+			(node
+				(ref "R_PU_ALRT")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "TP_ALRT")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U_TEMP")
+				(pin "3")
+				(pinfunction "ALERT_3")
+				(pintype "open_collector")
+			)
+		)
+		(net
+			(code "44")
+			(name "/VDD_1V2_ANA")
+			(class "Default")
+			(node
+				(ref "C_ANA1")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C_ANA2")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "J_LDO_ANA")
+				(pin "1")
+				(pinfunction "Pin_1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "TP_ANA_INT")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U1")
+				(pin "22")
+				(pinfunction "VDD_1V2_22")
+				(pintype "power_out")
+			)
+		)
+		(net
+			(code "45")
+			(name "/VDD_1V2_DIG")
+			(class "Default")
+			(node
+				(ref "C_DIG1")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C_DIG2")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "J_LDO_DIG")
+				(pin "1")
+				(pinfunction "Pin_1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "TP_DIG_INT")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U1")
+				(pin "9")
+				(pinfunction "VDD_1V2_9")
+				(pintype "power_out")
+			)
+		)
+		(net
+			(code "46")
+			(name "/VDD_3V3_SOC")
+			(class "Default")
+			(node
+				(ref "C_3V3_1")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C_3V3_2")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C_3V3_BULK")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "J_PWR_MAIN")
+				(pin "2")
+				(pinfunction "Pin_2_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "R_SENSE_MAIN")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "TP_VDD_SOC")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U1")
+				(pin "23")
+				(pinfunction "VDD_3V3_23")
+				(pintype "power_in")
+			)
+		)
+		(net
+			(code "47")
+			(name "GND")
+			(class "Default")
+			(node
+				(ref "C_3V3_1")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C_3V3_2")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C_3V3_BULK")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C_AAF")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C_ANA1")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C_ANA2")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C_BGR1")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C_BGR2")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C_BUF1")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C_BUF2")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C_DIG1")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C_DIG2")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C_LDO_IN")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C_LDO_OUT")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C_LS_A")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C_LS_B")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C_MAIN_BULK")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C_OSC")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C_TEMP")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "D_ALARM")
+				(pin "1")
+				(pinfunction "K_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "D_PWR_1V2")
+				(pin "1")
+				(pinfunction "K_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "D_PWR_3V3")
+				(pin "1")
+				(pinfunction "K_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "J_AD0")
+				(pin "3")
+				(pinfunction "Pin_3_3")
+				(pintype "passive")
+			)
+			(node
+				(ref "J_HOST")
+				(pin "12")
+				(pinfunction "Pin_12_12")
+				(pintype "passive")
+			)
+			(node
+				(ref "J_HOST")
+				(pin "3")
+				(pinfunction "Pin_3_3")
+				(pintype "passive")
+			)
+			(node
+				(ref "J_HOST")
+				(pin "4")
+				(pinfunction "Pin_4_4")
+				(pintype "passive")
+			)
+			(node
+				(ref "J_PWR_IN")
+				(pin "2")
+				(pinfunction "Pin_2_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "J_SENSOR")
+				(pin "4")
+				(pinfunction "Pin_4_4")
+				(pintype "passive")
+			)
+			(node
+				(ref "J_TERM_CLK")
+				(pin "2")
+				(pinfunction "Pin_2_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "R_PD_EN")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "R_SENS_LOAD")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "SMA_BGR")
+				(pin "2")
+				(pinfunction "Ext_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "SMA_CAL")
+				(pin "2")
+				(pinfunction "Ext_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "SMA_CLK_A")
+				(pin "2")
+				(pinfunction "Ext_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "SMA_CLK_D")
+				(pin "2")
+				(pinfunction "Ext_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "TP_GND_MAIN")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "TP_GND_SMA1")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "TP_GND_SMA2")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "TP_GND_SMA3")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "TP_GND_SMA4")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U1")
+				(pin "25")
+				(pinfunction "VSS_25")
+				(pintype "power_in")
+			)
+			(node
+				(ref "U1")
+				(pin "3")
+				(pinfunction "VSS_3")
+				(pintype "power_in")
+			)
+			(node
+				(ref "U_BUF1")
+				(pin "2")
+				(pinfunction "V-_2")
+				(pintype "power_in")
+			)
+			(node
+				(ref "U_BUF2")
+				(pin "2")
+				(pinfunction "V-_2")
+				(pintype "power_in")
+			)
+			(node
+				(ref "U_LDO")
+				(pin "2")
+				(pinfunction "GND_2")
+				(pintype "power_in")
+			)
+			(node
+				(ref "U_LS")
+				(pin "7")
+				(pinfunction "GND_7")
+				(pintype "power_in")
+			)
+			(node
+				(ref "U_OSC")
+				(pin "2")
+				(pinfunction "GND_2")
+				(pintype "power_in")
+			)
+			(node
+				(ref "U_TEMP")
+				(pin "2")
+				(pinfunction "GND_2")
+				(pintype "power_in")
+			)
+			(node
+				(ref "U_TEMP")
+				(pin "4")
+				(pinfunction "ADD0_4")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "48")
+			(name "unconnected-(U1-NC-Pad1)")
+			(class "Default")
+			(node
+				(ref "U1")
+				(pin "1")
+				(pinfunction "NC_1")
+				(pintype "no_connect")
+			)
+		)
+		(net
+			(code "49")
+			(name "unconnected-(U1-NC-Pad6)")
+			(class "Default")
+			(node
+				(ref "U1")
+				(pin "6")
+				(pinfunction "NC_6")
+				(pintype "no_connect")
+			)
+		)
+		(net
+			(code "50")
+			(name "unconnected-(U1-NC-Pad7)")
+			(class "Default")
+			(node
+				(ref "U1")
+				(pin "7")
+				(pinfunction "NC_7")
+				(pintype "no_connect")
+			)
+		)
+		(net
+			(code "51")
+			(name "unconnected-(U1-NC-Pad12)")
+			(class "Default")
+			(node
+				(ref "U1")
+				(pin "12")
+				(pinfunction "NC_12")
+				(pintype "no_connect")
+			)
+		)
+		(net
+			(code "52")
+			(name "unconnected-(U1-NC-Pad13)")
+			(class "Default")
+			(node
+				(ref "U1")
+				(pin "13")
+				(pinfunction "NC_13")
+				(pintype "no_connect")
+			)
+		)
+		(net
+			(code "53")
+			(name "unconnected-(U1-NC-Pad18)")
+			(class "Default")
+			(node
+				(ref "U1")
+				(pin "18")
+				(pinfunction "NC_18")
+				(pintype "no_connect")
+			)
+		)
+		(net
+			(code "54")
+			(name "unconnected-(U1-NC-Pad19)")
+			(class "Default")
+			(node
+				(ref "U1")
+				(pin "19")
+				(pinfunction "NC_19")
+				(pintype "no_connect")
+			)
+		)
+		(net
+			(code "55")
+			(name "unconnected-(U1-NC-Pad24)")
+			(class "Default")
+			(node
+				(ref "U1")
+				(pin "24")
+				(pinfunction "NC_24")
+				(pintype "no_connect")
+			)
+		)
+		(net
+			(code "56")
+			(name "unconnected-(U_LDO-NC-Pad4)")
+			(class "Default")
+			(node
+				(ref "U_LDO")
+				(pin "4")
+				(pinfunction "NC_4")
+				(pintype "no_connect")
+			)
+		)
+		(net
+			(code "57")
+			(name "unconnected-(U_LS-NC-Pad6)")
+			(class "Default")
+			(node
+				(ref "U_LS")
+				(pin "6")
+				(pinfunction "NC_6")
+				(pintype "no_connect")
+			)
+		)
+		(net
+			(code "58")
+			(name "unconnected-(U_LS-NC-Pad9)")
+			(class "Default")
+			(node
+				(ref "U_LS")
+				(pin "9")
+				(pinfunction "NC_9")
+				(pintype "no_connect")
+			)
+		)
+	)
+)

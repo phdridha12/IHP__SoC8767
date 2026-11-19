@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "SoC8767")(type "KiCad")(uri "${KIPRJMOD}/SoC8767.kicad_sym")(options "")(descr "AIRMODA SoC8767 Symbol Library"))
+)

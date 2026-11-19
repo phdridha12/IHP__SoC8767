@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "SoC8767")(type "KiCad")(uri "${KIPRJMOD}/SoC8767.pretty")(options "")(descr "AIRMODA SoC8767 Footprint Library"))
+)
